@@ -18,9 +18,13 @@ Each framework renders as a pre-built, editable diagram with styled cards, secti
 
 | Shortcut | Action |
 |----------|--------|
-| `Ctrl+Shift+F` | Open Framework Picker |
+| `Ctrl+Shift+B` | Open Framework Picker |
 | `Ctrl+Shift+G` | Force GTM Sequence (5-step guided path) |
 | `Ctrl+Shift+S` | Force Startup Walkthrough (10-step guided path) |
+| `Ctrl+Shift+T` | Open Template dialogbox |
+| `Ctrl+Shift+M` | Open Mermaid dialog box |
+| `Ctrl + ,` | Open Configuration |
+| `Ctrl + .` | Rotate Shape |
 
 ---
 
