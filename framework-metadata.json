@@ -1,0 +1,3907 @@
+{
+  "version": "1.0.0",
+  "groups": {
+    "Executive": {
+      "purpose": "a leadership tool for diagnosing problems, making decisions, and driving execution",
+      "bg": {
+        "f": "#FEF2F2",
+        "g": "#FFFFFF",
+        "s": "#FCA5A5"
+      },
+      "useCase": [
+        "diagnose",
+        "decide"
+      ],
+      "effort": "med"
+    },
+    "McKinsey": {
+      "purpose": "a structured problem-solving and communication tool from McKinsey",
+      "bg": {
+        "f": "#EEF2FF",
+        "g": "#FFFFFF",
+        "s": "#C7D2FE"
+      },
+      "useCase": [
+        "diagnose",
+        "communicate"
+      ],
+      "effort": "med"
+    },
+    "Think": {
+      "purpose": "a thinking aid for breaking down problems and generating options",
+      "bg": {
+        "f": "#F5F3FF",
+        "g": "#FFFFFF",
+        "s": "#DDD6FE"
+      },
+      "useCase": [
+        "ideate",
+        "diagnose"
+      ],
+      "effort": "low"
+    },
+    "Understand Customer": {
+      "purpose": "a customer-empathy tool for understanding needs, jobs, and journeys",
+      "bg": {
+        "f": "#ECFEFF",
+        "g": "#FFFFFF",
+        "s": "#A5F3FC"
+      },
+      "useCase": [
+        "empathize"
+      ],
+      "effort": "med"
+    },
+    "Strategy": {
+      "purpose": "a strategy tool for positioning, choices, and competitive advantage",
+      "bg": {
+        "f": "#EFF6FF",
+        "g": "#FFFFFF",
+        "s": "#BFDBFE"
+      },
+      "useCase": [
+        "decide"
+      ],
+      "effort": "med"
+    },
+    "Product": {
+      "purpose": "a product tool for discovery, prioritization, and roadmap decisions",
+      "bg": {
+        "f": "#ECFDF5",
+        "g": "#FFFFFF",
+        "s": "#A7F3D0"
+      },
+      "useCase": [
+        "validate",
+        "decide"
+      ],
+      "effort": "med"
+    },
+    "Software Architecture": {
+      "purpose": "an architecture tool for structuring systems and weighing trade-offs",
+      "bg": {
+        "f": "#F1F5F9",
+        "g": "#FFFFFF",
+        "s": "#CBD5E1"
+      },
+      "useCase": [
+        "design"
+      ],
+      "effort": "high"
+    },
+    "Startup": {
+      "purpose": "a startup tool for validating, building, and scaling new ventures",
+      "bg": {
+        "f": "#FFF7ED",
+        "g": "#FFFFFF",
+        "s": "#FED7AA"
+      },
+      "useCase": [
+        "validate"
+      ],
+      "effort": "med"
+    },
+    "Stocks & Options": {
+      "purpose": "a trading tool for framing positions and managing risk",
+      "bg": {
+        "f": "#F0FDF4",
+        "g": "#FFFFFF",
+        "s": "#BBF7D0"
+      },
+      "useCase": [
+        "decide"
+      ],
+      "effort": "low"
+    },
+    "Modern": {
+      "purpose": "a modern, cross-disciplinary thinking framework",
+      "bg": {
+        "f": "#FDF2F8",
+        "g": "#FFFFFF",
+        "s": "#FBCFE8"
+      },
+      "useCase": [
+        "ideate"
+      ],
+      "effort": "low"
+    },
+    "Storytelling": {
+      "purpose": "a narrative tool for structuring clear, compelling stories",
+      "bg": {
+        "f": "#FFFBEB",
+        "g": "#FFFFFF",
+        "s": "#FDE68A"
+      },
+      "useCase": [
+        "communicate"
+      ],
+      "effort": "low"
+    },
+    "Design Patterns": {
+      "purpose": "a software design tool for reusable, battle-tested solutions",
+      "bg": {
+        "f": "#F3E8FF",
+        "g": "#FFFFFF",
+        "s": "#E9D5FF"
+      },
+      "useCase": [
+        "design"
+      ],
+      "effort": "med"
+    },
+    "AI / System Design": {
+      "purpose": "a system-design tool for scalable, reliable AI and software systems",
+      "bg": {
+        "f": "#EEF2FF",
+        "g": "#FFFFFF",
+        "s": "#C7D2FE"
+      },
+      "useCase": [
+        "design"
+      ],
+      "effort": "high"
+    },
+    "Agentic Design Patterns": {
+      "purpose": "a tool for designing agentic AI systems and workflows",
+      "bg": {
+        "f": "#F5F3FF",
+        "g": "#FFFFFF",
+        "s": "#DDD6FE"
+      },
+      "useCase": [
+        "design"
+      ],
+      "effort": "high"
+    },
+    "RAG Patterns": {
+      "purpose": "a tool for designing retrieval-augmented generation systems",
+      "bg": {
+        "f": "#ECFEFF",
+        "g": "#FFFFFF",
+        "s": "#A5F3FC"
+      },
+      "useCase": [
+        "design"
+      ],
+      "effort": "high"
+    },
+    "Enterprise & Org Design": {
+      "purpose": "an organization-design tool for structure, processes, and performance",
+      "bg": {
+        "f": "#F3EDF7",
+        "g": "#FFFFFF",
+        "s": "#D6C8EE"
+      },
+      "useCase": [
+        "design"
+      ],
+      "effort": "high"
+    },
+    "Job Search": {
+      "purpose": "a career tool for positioning yourself and landing the right role",
+      "bg": {
+        "f": "#F0FDFA",
+        "g": "#FFFFFF",
+        "s": "#99F6E4"
+      },
+      "useCase": [
+        "empathize",
+        "communicate"
+      ],
+      "effort": "med"
+    },
+    "GTM": {
+      "purpose": "a go-to-market tool for launching, scaling, and optimising revenue motions",
+      "bg": {
+        "f": "#FEF3C7",
+        "g": "#FFFFFF",
+        "s": "#FCD34D"
+      },
+      "useCase": [
+        "diagnose"
+      ],
+      "effort": "med"
+    },
+    "Financial": {
+      "purpose": "a financial tool for analyzing cash flow, unit economics, and investment returns",
+      "bg": {
+        "f": "#EFF6FF",
+        "g": "#FFFFFF",
+        "s": "#93C5FD"
+      },
+      "useCase": [
+        "decide",
+        "diagnose"
+      ],
+      "effort": "low"
+    },
+    "Leadership": {
+      "purpose": "a leadership tool for building teams, giving feedback, and driving culture",
+      "bg": {
+        "f": "#FDF2F8",
+        "g": "#FFFFFF",
+        "s": "#F9A8D4"
+      },
+      "useCase": [
+        "decide",
+        "communicate"
+      ],
+      "effort": "med"
+    }
+  },
+  "frameworks": {
+    "5": {
+      "when": "A defect keeps coming back and the team keeps treating the symptom.",
+      "why": "Five rounds of 'why' walk you from the symptom to the cause — one plant finally traced repeated line stops to a single unclear work instruction and closed the loop for good.",
+      "tags": [
+        "root cause",
+        "problem solving",
+        "quality",
+        "diagnostic"
+      ],
+      "sections": [
+        "Product",
+        "Strategy"
+      ],
+      "compare": "vs Fishbone: trace ONE root-cause chain, not a category map"
+    },
+    "5s": {
+      "when": "The workshop, lab or shared drive is chaos and people lose time hunting for things.",
+      "why": "Sort / Set / Shine / Standardize / Sustain clears the waste and makes the order stick — a hospital cut instrument-search time and gave nurses back to patients.",
+      "tags": [
+        "workplace",
+        "lean",
+        "organization"
+      ]
+    },
+    "7s": {
+      "when": "The business is underperforming and you suspect misalignment, not a bad strategy.",
+      "why": "It lays bare the gaps across Strategy, Structure, Systems, Style, Staff, Skills and Shared values — a bank saw its new strategy fail because incentives still rewarded the old behaviour.",
+      "tags": [
+        "org alignment",
+        "mckinsey",
+        "diagnostic"
+      ]
+    },
+    "adkar": {
+      "when": "You have to move individuals through a change, not just announce it.",
+      "why": "Sequencing Awareness, Desire, Knowledge, Ability and Reinforcement is what lifts adoption — a rollout that skipped 'desire' stalled until managers made the personal case.",
+      "tags": [
+        "change",
+        "adoption",
+        "transition"
+      ]
+    },
+    "agenticrag": {
+      "when": "You're building an autonomous RAG agent that has to plan, act and self-check.",
+      "why": "ReAct and plan-and-execute patterns keep retrieval grounded and auditable instead of letting the agent wander off and hallucinate.",
+      "tags": [
+        "ai",
+        "rag",
+        "agents"
+      ],
+      "compare": "vs RAG: plan/act/reflect AGENTS over retrieved context"
+    },
+    "ai": {
+      "when": "You need one map of the core AI delivery patterns from data to deployment.",
+      "why": "It frames the build as a set of deliberate choices so the team doesn't rediscover architecture halfway through the project.",
+      "tags": [
+        "ai",
+        "strategy",
+        "delivery"
+      ],
+      "compare": "vs AI Value: the pattern MAP vs the value map"
+    },
+    "aiValue": {
+      "when": "Leadership asks 'where does AI actually create value for us?'",
+      "why": "It ties AI bets to concrete P&L levers instead of tech for its own sake — one insurer funded only the three use cases with a clear loss-ratio impact.",
+      "tags": [
+        "ai",
+        "value",
+        "business case"
+      ],
+      "compare": "vs Canvas: tie AI bets to P&L levers, not just describe the model"
+    },
+    "assumption": {
+      "when": "The plan rests on beliefs nobody has explicitly tested.",
+      "why": "Surfacing and stress-testing the riskiest assumptions exposes the ones most likely to sink the project — before you spend.",
+      "tags": [
+        "risk",
+        "planning",
+        "validation"
+      ]
+    },
+    "bcg": {
+      "when": "You have to allocate resources across a portfolio by growth and market share.",
+      "why": "Stars / Cash Cows / Question Marks / Dogs forces the honest trade-off — a conglomerate stopped feeding declining units and backed its rising star.",
+      "tags": [
+        "portfolio",
+        "strategy",
+        "allocation",
+        "matrix",
+        "growth"
+      ],
+      "sections": [
+        "Product",
+        "GTM"
+      ],
+      "compare": "vs Porter: allocate a PORTFOLIO by growth/share, not assess industry attractiveness"
+    },
+    "behavioral": {
+      "when": "You're designing for how people actually decide, not how they rationally should.",
+      "why": "Nudges and bias-aware design beat purely rational models — a sign-up flow that matched real behaviour lifted conversion where logic alone did nothing.",
+      "tags": [
+        "behavior",
+        "nudge",
+        "design"
+      ]
+    },
+    "bsc": {
+      "when": "Strategy isn't translating into measured performance.",
+      "why": "Balancing Financial, Customer, Process and Learning lenses stops one metric from hiding trouble elsewhere — a firm caught churn early through the customer lens.",
+      "tags": [
+        "performance",
+        "kpi",
+        "strategy"
+      ]
+    },
+    "businessPlan": {
+      "when": "You need a one-page backbone for a new venture or an investor pitch.",
+      "why": "It forces the few numbers and claims a funder actually checks, so the story survives scrutiny.",
+      "tags": [
+        "startup",
+        "pitch",
+        "planning"
+      ],
+      "compare": "vs Canvas: a one-page plan to win funders, not the full model"
+    },
+    "canvas": {
+      "when": "You're designing or renewing how the whole business creates and captures value.",
+      "why": "Nine blocks make the model legible to partners and investors — a scale-up used it to spot a missing key partner before launch.",
+      "tags": [
+        "business model",
+        "strategy",
+        "value",
+        "lean canvas"
+      ],
+      "sections": [
+        "Startup",
+        "Product"
+      ],
+      "compare": "vs BCG: design the whole value model, not just prioritize business units"
+    },
+    "crag": {
+      "when": "Your RAG pipeline answers from documents it shouldn't trust.",
+      "why": "Confidence gating and self-correction raise reliability over vanilla RAG — a support bot stopped citing stale docs after a relevance gate.",
+      "tags": [
+        "ai",
+        "rag",
+        "quality"
+      ],
+      "compare": "vs vanilla RAG: self-CHECK retrieval quality before answering"
+    },
+    "creational": {
+      "when": "You're choosing how objects get instantiated in a codebase.",
+      "why": "Decoupling creation from use tames construction complexity — a team swapped brittle constructors for factories and halved init bugs.",
+      "tags": [
+        "design pattern",
+        "software",
+        "creation"
+      ]
+    },
+    "cqrs": {
+      "when": "A model is read far more than it is written, or reads and writes have very different scaling, consistency and shaping needs.",
+      "why": "Splitting the write (Command) and read (Query) sides lets each be modelled, scaled and tuned independently — one team cut read latency by building purpose-built projections off the same events.",
+      "tags": [
+        "architecture",
+        "cqrs",
+        "events"
+      ],
+      "compare": "Unlike a single CRUD model, CQRS makes the message types explicit — Commands, Queries and Events are first-class and travel on their own buses."
+    },
+    "customer": {
+      "when": "You have to see the experience across every touchpoint, end to end.",
+      "why": "It surfaces the pain points and moments that aggregate metrics miss — a retailer found the drop-off was onboarding, not checkout.",
+      "tags": [
+        "journey",
+        "cx",
+        "experience",
+        "customer",
+        "touchpoints",
+        "pain points",
+        "friction",
+        "drop-off",
+        "lifecycle",
+        "onboarding",
+        "moments of truth"
+      ],
+      "compare": "vs JTBD: the end-to-end journey vs the job hired"
+    },
+    "design": {
+      "when": "A messy problem needs a structured design-thinking pass.",
+      "why": "Keeping problem and solution iterating together stops you building the wrong thing beautifully.",
+      "tags": [
+        "design thinking",
+        "ideation",
+        "innovation",
+        "user-centered"
+      ],
+      "sections": [
+        "Storytelling"
+      ]
+    },
+    "diamond": {
+      "when": "A decision has several live options and you must converge without forcing it.",
+      "why": "Diverge-then-converge avoids premature commitment — a team surfaced a cheaper option nobody had voiced.",
+      "tags": [
+        "decision",
+        "ideation",
+        "converge"
+      ],
+      "compare": "vs Hats: diverge-then-converge with no fixed roles"
+    },
+    "tki": {
+      "when": "Two parties are at odds and you need to pick how to engage, not just 'resolve' it.",
+      "why": "Mapping the conflict onto Assertiveness × Cooperativeness shows why competing or avoiding keeps failing — a deadlocked negotiation moved when both sides switched from Competing to Collaborating on the issues that mattered.",
+      "tags": [
+        "conflict",
+        "negotiation",
+        "behavior"
+      ],
+      "compare": "Unlike a generic 'win-win' prompt, TKI makes the trade-off between your goals and the relationship explicit and gives five distinct, named moves."
+    },
+    "dmaic": {
+      "when": "A process has to be improved with data, not opinion.",
+      "why": "Define-Measure-Analyze-Improve-Control makes the gain stick — a call centre cut handle time and kept it down.",
+      "tags": [
+        "six sigma",
+        "process",
+        "improvement",
+        "quality"
+      ],
+      "sections": [
+        "Strategy"
+      ]
+    },
+    "dvf": {
+      "when": "You have to decide whether an idea is even worth building.",
+      "why": "Desirability × Feasibility × Viability flags the non-starters early — a media firm killed a slick idea that failed the viability test.",
+      "tags": [
+        "innovation",
+        "feasibility",
+        "product"
+      ],
+      "compare": "vs Lean Canvas: the desirability×feasibility×viability gate"
+    },
+    "empathy": {
+      "when": "The team keeps guessing what users want instead of knowing.",
+      "why": "Separating what users say, think, feel and do reveals the gaps — a product team found stated needs diverged from observed behaviour.",
+      "how": "Empathy Map outputs feed directly into Persona creation, Value Proposition design, and Journey Mapping. The 'Pains' quadrant maps to Pain Relievers; 'Gains' maps to Gain Creators.",
+      "example": "Airbnb's early team visited hosts' homes and photographed listings themselves. Their empathy map revealed hosts feared 'my place will look bad' — leading to the free professional photography program that doubled bookings.",
+      "tags": [
+        "empathy",
+        "research",
+        "cx",
+        "user",
+        "qualitative",
+        "customer",
+        "pain points",
+        "needs",
+        "behavior",
+        "observation",
+        "feelings",
+        "thoughts",
+        "say think feel do"
+      ],
+      "sections": [
+        "Storytelling"
+      ],
+      "compare": "vs Persona: what they FEEL/think/do vs who they are"
+    },
+    "event": {
+      "when": "You're modelling an event-driven or reactive system.",
+      "why": "Making event flows and side effects explicit prevents silent coupling — a payments rewrite avoided lost updates by charting events first.",
+      "tags": [
+        "architecture",
+        "events",
+        "reactive"
+      ],
+      "compare": "vs REST: event-driven flows vs request/response resources"
+    },
+    "experiment": {
+      "when": "You're uncertain and need evidence fast and cheap.",
+      "why": "Small tests beat internal debates about what will work — a pricing question was answered with a one-week A/B test.",
+      "tags": [
+        "validation",
+        "testing",
+        "learning"
+      ]
+    },
+    "first": {
+      "when": "Accepted solutions feel like dogma and should be re-derived from basics.",
+      "why": "Reasoning from first principles breaks local maxima — a hardware team rebuilt a part from physics and cut cost 40%.",
+      "tags": [
+        "reasoning",
+        "first principles",
+        "innovation"
+      ],
+      "compare": "vs SCAMPER: re-derive from first principles, don't remix what exists"
+    },
+    "fishbone": {
+      "when": "A defect's causes are many and tangled.",
+      "why": "Categorising causes (People, Process, Tech…) sends effort to the real ones — a line cut scrap by attacking the true category.",
+      "tags": [
+        "root cause",
+        "quality",
+        "ishikawa"
+      ],
+      "compare": "vs 5 Whys: map many cause CATEGORIES, not one root-cause chain"
+    },
+    "fives": {
+      "when": "You're qualifying an industry's competitive structure.",
+      "why": "The five forces show where structure erodes profitability — a startup avoided a sector where buyers and suppliers both held the power.",
+      "tags": [
+        "porter",
+        "industry",
+        "competition"
+      ]
+    },
+    "funnel": {
+      "when": "You're analysing conversion drop-off stage by stage.",
+      "why": "It shows exactly where prospects leak out — a SaaS found the leak was the trial, not the landing page.",
+      "tags": [
+        "conversion",
+        "marketing",
+        "funnel"
+      ]
+    },
+    "gap": {
+      "when": "Current state and target state have diverged and you need the bridge.",
+      "why": "Making 'how to close it' concrete and owned turns vague ambition into a plan — a department shipped the closure steps, not just the goal.",
+      "tags": [
+        "gap analysis",
+        "planning",
+        "as-is to-be"
+      ]
+    },
+    "golden": {
+      "when": "You're comparing two things on the one axis that matters.",
+      "why": "Stripping the noise to the single ratio worth optimising stops you tuning the wrong metric — a team focused on activation, not signups.",
+      "tags": [
+        "metric",
+        "ratio",
+        "comparison"
+      ]
+    },
+    "graphrag": {
+      "when": "RAG has to reason over relationships, not just text chunks.",
+      "why": "A graph index enables multi-hop, community-aware answers — an analyst query spanning three departments finally resolved.",
+      "tags": [
+        "ai",
+        "rag",
+        "graph"
+      ],
+      "compare": "vs RAG: reason over RELATIONSHIPS, not just text chunks"
+    },
+    "greeks": {
+      "when": "You're managing options risk beyond just price direction.",
+      "why": "Delta / Gamma / Vega / Theta / Rho isolate each risk dimension so a position isn't blindsided by volatility.",
+      "tags": [
+        "options",
+        "risk",
+        "greeks"
+      ]
+    },
+    "hats": {
+      "when": "A group is stuck in one mindset and talking past itself.",
+      "why": "Six roles (facts, feelings, creative, cautious, optimistic, process) widen the lens — a stalled review produced the missing creative option.",
+      "tags": [
+        "thinking",
+        "decision",
+        "team"
+      ],
+      "compare": "vs Diamond: six FIXED lenses (facts/feelings/creative…) vs free diverge-converge"
+    },
+    "hero": {
+      "when": "You're shaping a compelling brand or personal story.",
+      "why": "A clear arc with stakes and transformation beats a feature list — a founder's hero story landed the meeting.",
+      "tags": [
+        "story",
+        "brand",
+        "narrative"
+      ],
+      "compare": "vs Pitch: the STORY vs the ask"
+    },
+    "hybridrag": {
+      "when": "You need both fast keyword recall and deep semantic retrieval.",
+      "why": "Hybrid retrieval lifts recall and precision together — a legal search found the exact clause and the related precedent.",
+      "tags": [
+        "ai",
+        "rag",
+        "retrieval"
+      ],
+      "compare": "vs RAG: keyword + semantic for higher recall AND precision"
+    },
+    "ikigai": {
+      "when": "You're searching for purpose at the intersection of four needs.",
+      "why": "Aligning passion, mission, profession and vocation clarifies where to focus — a professional found the role that fit all four.",
+      "tags": [
+        "purpose",
+        "career",
+        "modern"
+      ]
+    },
+    "impact": {
+      "when": "Too many initiatives are competing for limited effort.",
+      "why": "Impact ÷ Effort focuses the team on what actually moves the needle — a squad dropped a beloved low-impact project.",
+      "tags": [
+        "prioritization",
+        "effort",
+        "impact",
+        "scoring",
+        "matrix"
+      ],
+      "sections": [
+        "Strategy"
+      ]
+    },
+    "issue": {
+      "when": "A messy problem needs to become a clean decision tree.",
+      "why": "Issues → analyses → hypotheses keeps the problem-solving disciplined — a study answered the decisive question first.",
+      "tags": [
+        "issue tree",
+        "mckinsey",
+        "structured"
+      ],
+      "compare": "vs Logic Tree: a decision-tree framing of the same structured discipline"
+    },
+    "jtbd": {
+      "when": "You want the job the customer 'hires' the product to do.",
+      "why": "Reframing features as outcomes uncovers white space — a snack brand grew by serving the 'afternoon slump' job, not 'taste'.",
+      "how": "JTBD outputs feed directly into product roadmap (build for the job, not the feature), messaging (speak to the outcome, not the tool), and competitive positioning (you're not competing with similar products — you're competing with the old way of getting the job done).",
+      "example": "When a team asks 'what feature should we build next?', JTBD reframes the question as 'what job is the customer hiring this product for?' — shifting from feature lists to outcome-driven roadmaps.",
+      "tags": [
+        "jobs",
+        "customer",
+        "innovation",
+        "switch interview",
+        "push pull",
+        "motivation",
+        "outcome",
+        "why they switch",
+        "hiring",
+        "functional emotional social"
+      ],
+      "sections": [
+        "Product"
+      ],
+      "compare": "vs Value Prop: focus on the JOB hired, not the offer · vs Persona Deep Dive: persona = who, JTBD = what they hire the product to do in context",
+      "skill": [
+        {
+          "title": "Your Job Statement",
+          "body": "Fill in: 'When [your customer's specific circumstance], I want to [the progress they seek], so I can [the outcome they value].' Rules: Never mention your product name. Include the situation, not demographics. Name functional AND emotional progress. Example pattern: 'When I'm [situation], I want to [progress], so I can [outcome].' Bad: 'I want your app.' Good: 'When I'm overwhelmed and don't know where to start, I want to see my priorities clearly so I can feel in control.'"
+        },
+        {
+          "title": "Your Four Forces",
+          "body": "For YOUR proposed change, fill in: PUSH — What frustrates your customer about the current way? PULL — What attracts them to your solution? ANXIETY — What fears block the switch? HABIT — What keeps them doing it the old way? Change only happens when Push + Pull > Habit + Anxiety. Most teams only increase Pull. What specific intervention will YOU design for Anxiety? For Habit?"
+        },
+        {
+          "title": "Your Competitive Landscape",
+          "body": "For YOUR customer's job, list: OBVIOUS competitor (same category as you): ___ NON-OBVIOUS competitors (different category, same job): ___ NON-CONSUMPTION (doing nothing — the most common competitor): ___ Positioning answer: 'We are the best hire for [job], not the best [category].' What job are YOU the best hire for?"
+        },
+        {
+          "title": "Your Big Hire vs Little Hire",
+          "body": "BIG HIRE (purchase): What metric tracks first-time conversion? ___ What reduces purchase anxiety? ___ LITTLE HIRE (usage): What metric tracks repeat usage? ___ What drives the return? ___ Diagnosis: High Big Hire + Low Little Hire = won the pitch, lost the experience. Low Big Hire + High Little Hire = great product, bad marketing. Which diagnosis fits YOUR situation?"
+        },
+        {
+          "title": "Your Three Dimensions",
+          "body": "For YOUR job statement, verify: FUNCTIONAL — What tangible progress does your customer need? ___ EMOTIONAL — How do they want to feel? (control, safety, accomplishment) ___ SOCIAL — How do they want to be perceived? (professional, responsible, smart) ___ Most teams nail Functional, forget Emotional, ignore Social. Which dimension are YOU missing?"
+        },
+        {
+          "title": "Your JTBD Maturity Score",
+          "body": "Score 1 point for each YES: (1) Can you state the job without mentioning your product? (2) Have you mapped all four forces? (3) Do you know the emotional and social dimensions? (4) Have you identified non-obvious competitors? (5) Are you tracking Little Hire separately? (6) Can your team explain how each feature serves the job? (7) Have you interviewed customers about their purchase timeline? YOUR SCORE: ___/7. Lowest-scoring item = fix next."
+        }
+      ],
+      "examples": [
+        {
+          "title": "Job Statement Pattern",
+          "body": "Bad: 'I want a to-do app' (mentions product). Good: 'When I'm overwhelmed with tasks, I want to see my priorities clearly so I can feel in control of my day.' Your turn: write yours using 'When [circumstance], I want [progress], so I can [outcome].'"
+        },
+        {
+          "title": "Non-Obvious Competition Pattern",
+          "body": "Your obvious competitor = same category. Non-obvious = different category, same job. Non-consumption = doing nothing. Example: 'Commute entertainment' — obvious: other podcasts. Non-obvious: music, phone calls. Non-consumption: boredom. Your turn: list yours."
+        },
+        {
+          "title": "Big Hire vs Little Hire Pattern",
+          "body": "Big Hire = first purchase. Little Hire = repeat usage. If customers buy but don't use, you won Big Hire, lost Little Hire. Track them separately. Your turn: what's YOUR Big Hire metric? YOUR Little Hire metric?"
+        }
+      ],
+      "casestudy": [
+        {
+          "title": "Pebble Watch — Won functional, lost social",
+          "body": "Functional job clear. Social dimension missed — mainstream users felt self-conscious. Apple Watch solved social (fashion, luxury). Your question: which dimension are YOU ignoring?",
+          "result": "failure"
+        },
+        {
+          "title": "Intercom — Every feature names its job",
+          "body": "Feature proposal must name the job it serves. 'Better reporting' became 'prove to my boss support is working' → automated emails, not dashboards. Your question: can YOUR team name the job for each feature?",
+          "result": "success"
+        }
+      ],
+      "integration": [
+        {
+          "title": "JTBD × Mom Test",
+          "body": "JTBD = WHAT/WHY of the job. Mom Test = HOW to ask without leading. Use Mom Test techniques during JTBD interviews — ask about past behavior, not hypotheticals."
+        },
+        {
+          "title": "JTBD × Four Steps",
+          "body": "JTBD tells you WHAT to build. Four Steps tells you HOW to validate it. JTBD interviews = Customer Discovery. Job Statement = your hypothesis."
+        },
+        {
+          "title": "JTBD × Value Proposition Canvas",
+          "body": "JTBD provides the INPUT (job, forces, dimensions). VPC provides the STRUCTURE (gains, pains, gain creators, pain relievers). Map your job to VPC elements."
+        }
+      ]
+    },
+    "kano": {
+      "when": "You have to prioritise features by how they actually delight.",
+      "why": "Basic / Performance / Delighter separates table-stakes from wow — a team stopped over-investing in a delighter users ignored.",
+      "tags": [
+        "prioritization",
+        "product",
+        "features"
+      ],
+      "compare": "vs RICE: classify by DELIGHT vs rank by reach×effort"
+    },
+    "kotter": {
+      "when": "A big change keeps stalling after the kickoff.",
+      "why": "Eight steps build urgency, a guiding coalition, quick wins and anchor the change — a transformation that skipped wins lost momentum.",
+      "tags": [
+        "change",
+        "transformation",
+        "kotter"
+      ]
+    },
+    "lean": {
+      "when": "You want maximum value with minimum waste.",
+      "why": "Pull, flow and continuous improvement beat batch-and-queue — a team halved lead time by killing a queue.",
+      "tags": [
+        "lean",
+        "waste",
+        "flow",
+        "efficiency",
+        "process"
+      ],
+      "sections": [
+        "Executive"
+      ]
+    },
+    "leancanvas": {
+      "when": "You're pressure-testing a startup on one page.",
+      "why": "Nine blocks force the riskiest assumptions into the open — a founder saw the channel risk before writing code.",
+      "how": "Lean Canvas output becomes the startup's strategic summary. The 'Unfair Advantage' block forces honest differentiation. The 'Problem' and 'Solution' blocks feed directly into MVP scope. The 'Key Metrics' block defines what to measure first.",
+      "example": "Dropbox's Lean Canvas: Problem (files are scattered across devices) → Solution (sync folder that just works) → Key Metrics (invites per user) → Unfair Advantage (viral video demo that explained the product in 3 minutes). The video got 75K signups overnight — validating the canvas before writing code.",
+      "tags": [
+        "startup",
+        "canvas",
+        "risk",
+        "lean",
+        "validation"
+      ],
+      "sections": [
+        "Product",
+        "Strategy"
+      ],
+      "compare": "vs Canvas: startup risk-forward version (problems before polish)"
+    },
+    "logic": {
+      "when": "You're structuring an argument or a breakdown hierarchically.",
+      "why": "MECE logic trees make the reasoning auditable and the gaps visible — a presentation survived scrutiny because the tree held.",
+      "tags": [
+        "logic tree",
+        "mece",
+        "argument"
+      ],
+      "compare": "vs MECE: a hierarchical ARGUMENT · MECE is the rule that keeps it clean"
+    },
+    "mckDistinct": {
+      "when": "You need a crisp, differentiated position customers remember.",
+      "why": "Forcing an 'only we' claim stops the me-too positioning — a brand rose above rivals with one sharp line.",
+      "tags": [
+        "positioning",
+        "mckinsey",
+        "strategy"
+      ],
+      "compare": "vs Positioning: force a memorable \"only we\" claim customers recall"
+    },
+    "mckHypTree": {
+      "when": "You're forming and testing hypotheses fast.",
+      "why": "A tree of hypotheses routes the analysis to the decisive question — a team avoided weeks of low-value work.",
+      "tags": [
+        "hypothesis",
+        "mckinsey",
+        "analysis"
+      ],
+      "compare": "vs Issue Tree: emphasizes TESTABLE hypotheses over pure structure"
+    },
+    "mckIssueTree": {
+      "when": "A vague problem has to become solvable sub-problems.",
+      "why": "A mutually exclusive, collectively exhaustive structure prevents double-counting — the answer held up to challenge.",
+      "tags": [
+        "issue tree",
+        "mece",
+        "mckinsey"
+      ],
+      "compare": "vs Logic Tree: same discipline, McKinsey-named · vs Hyp Tree: structure first"
+    },
+    "mckMethod": {
+      "when": "You need the canonical engagement operating system.",
+      "why": "Aligning the team on how to problem-solve, not just what, speeds every workstream.",
+      "tags": [
+        "method",
+        "mckinsey",
+        "engagement"
+      ],
+      "compare": "vs others: the engagement OPERATING SYSTEM, not a single tool"
+    },
+    "mckProblemStmt": {
+      "when": "The problem is fuzzy and effort is scattering.",
+      "why": "One rigorous statement aligns everyone — a task force stopped pulling in different directions.",
+      "tags": [
+        "problem statement",
+        "mckinsey",
+        "alignment"
+      ],
+      "compare": "vs Minto: nail the problem before building the pyramid"
+    },
+    "mckPSP": {
+      "when": "A core document has to persuade an executive fast.",
+      "why": "Pyramid logic (governing thought → keys → support) earns the read — a memo got approved in one pass.",
+      "tags": [
+        "pyramid",
+        "persuasion",
+        "mckinsey"
+      ],
+      "compare": "vs Minto: the one-page DELIVERABLE of the pyramid (governing thought → support)"
+    },
+    "mckStakeholder": {
+      "when": "You must map who really influences a decision and how.",
+      "why": "It prevents surprises from unmanaged power or dissent — a sponsor's hidden objection surfaced in time.",
+      "tags": [
+        "stakeholder",
+        "mckinsey",
+        "influence"
+      ],
+      "compare": "vs Influence maps: name exactly who DECIDES and who can block"
+    },
+    "mckWorkplan": {
+      "when": "A workstream needs a realistic week-by-week plan.",
+      "why": "Making dependencies and owners explicit keeps delivery honest — a slip was visible early.",
+      "tags": [
+        "workplan",
+        "mckinsey",
+        "planning"
+      ],
+      "compare": "vs Roadmap: week-by-week delivery, not what/when at a glance"
+    },
+    "mece": {
+      "when": "You're structuring any breakdown and hate overlap or gaps.",
+      "why": "Mutually exclusive, collectively exhaustive means no double-counting — the analysis stayed clean under challenge.",
+      "tags": [
+        "mece",
+        "structure",
+        "logic"
+      ],
+      "compare": "vs Logic Tree: the cleanliness RULE that makes any breakdown valid"
+    },
+    "micro": {
+      "when": "You're decomposing a system into services.",
+      "why": "Bounded contexts keep teams and code independent — a monolith's release gridlock ended after the split.",
+      "tags": [
+        "microservices",
+        "architecture",
+        "bounded context"
+      ],
+      "compare": "vs Modular: independent SERVICES vs internal modules"
+    },
+    "minto": {
+      "when": "You have the analysis but the executive has ninety seconds.",
+      "why": "Lead with the answer, then the three reasons, then the proof — pyramid logic earns the read instead of losing it.",
+      "tags": [
+        "pyramid",
+        "communication",
+        "minto",
+        "persuasion",
+        "executive"
+      ],
+      "sections": [
+        "Storytelling",
+        "Executive"
+      ],
+      "compare": "vs SCQA: lead with the ANSWER · vs Issue Tree: the communication, not the analysis"
+    },
+    "multiagent": {
+      "when": "One agent can't handle a complex task alone.",
+      "why": "Role-specialised agents divide and conquer with handoffs — a research task finished faster and cleaner.",
+      "tags": [
+        "ai",
+        "agents",
+        "multi-agent"
+      ],
+      "compare": "vs Agentic RAG: several SPECIALIZED agents hand off vs one"
+    },
+    "multimodalrag": {
+      "when": "RAG has to use images, tables or audio, not just text.",
+      "why": "Cross-modal retrieval answers richer queries — a user queried a chart and got the right figure.",
+      "tags": [
+        "ai",
+        "rag",
+        "multimodal"
+      ],
+      "compare": "vs RAG: answer over images/tables/audio, not just text"
+    },
+    "northstar": {
+      "when": "Teams are optimising local metrics that fight each other.",
+      "why": "One leading metric aligns product work to real value — a growth team stopped trading activation for signups.",
+      "tags": [
+        "metric",
+        "product",
+        "alignment"
+      ],
+      "compare": "vs OKR: ONE leading metric vs objectives + key results"
+    },
+    "okr": {
+      "when": "You need focus and measurable progress, not a task list.",
+      "why": "Objectives plus Key Results align and stretch the team — a unit hit its outcome, not just its activities.",
+      "how": "OKR output becomes the team's operating rhythm. Weekly check-ins track KR progress, quarterly reviews score and reset. The 'key results' become the dashboard everyone watches — not the tasks, but the outcomes those tasks should produce.",
+      "example": "Google's OKR system (used since 1999): Larry Page set 'Organize the world's information' as the objective. Key results were measurable: 'Index 100M pages', 'Serve 10M users/day'. The stretch targets (70% = good) created a culture where missing ambitious goals was OK, but missing easy ones wasn't.",
+      "tags": [
+        "okr",
+        "goals",
+        "alignment",
+        "objectives",
+        "results"
+      ],
+      "sections": [
+        "Strategy",
+        "Executive"
+      ],
+      "compare": "vs North Star: set Objectives + Key Results, not a single metric"
+    },
+    "pdca": {
+      "when": "You're improving a process and want learning to compound, not a one-off fix.",
+      "why": "Looping Plan–Do–Check–Act turns every change into evidence — a plant cut defects by running tiny tests and keeping what worked.",
+      "tags": [
+        "improvement",
+        "quality",
+        "cycle"
+      ]
+    },
+    "ooda": {
+      "when": "You're making fast decisions under uncertainty and pressure.",
+      "why": "Observe–Orient–Decide–Act wins by tempo — a team that loops faster than rivals can act inside their decision cycle.",
+      "tags": [
+        "decision",
+        "military",
+        "cycle"
+      ]
+    },
+    "flywheel": {
+      "when": "You're building durable growth rather than chasing one-off campaigns.",
+      "why": "A flywheel compounds — each turn fuels the next, so momentum, not a spike, drives acquisition and retention. Also called Growth Loops: output feeds input, the definition of scale.",
+      "tags": [
+        "growth",
+        "momentum",
+        "cycle",
+        "growth loops",
+        "compounding",
+        "scale"
+      ],
+      "sections": [
+        "GTM",
+        "Startup"
+      ]
+    },
+    "opModel": {
+      "when": "The strategy isn't reflected in how work actually runs.",
+      "why": "Linking process, organisation, tech and locations to the model closes the say-do gap — a strategy finally executed.",
+      "tags": [
+        "operating model",
+        "strategy",
+        "execution"
+      ],
+      "compare": "vs Canvas: turn strategy into how work actually runs (process, tech, locations)"
+    },
+    "opp": {
+      "when": "You face a binary choice and want the trade-offs explicit.",
+      "why": "Forcing the downside and the walk-away prevents a bad yes — a deal was declined for the right reason.",
+      "tags": [
+        "decision",
+        "options",
+        "trade-off"
+      ]
+    },
+    "options": {
+      "when": "You're structuring option positions.",
+      "why": "Mapping payoff and risk across strikes and expiries shows the true exposure before you commit.",
+      "tags": [
+        "options",
+        "trading",
+        "payoff"
+      ]
+    },
+    "ost": {
+      "when": "A self-organising group needs lightweight rules.",
+      "why": "Purpose, Role, Boundary and Token keep autonomy without chaos — a community scaled without a hierarchy.",
+      "tags": [
+        "self-organization",
+        "agile",
+        "ost"
+      ]
+    },
+    "persona": {
+      "when": "Decisions keep failing because 'the user' is imaginary.",
+      "why": "Concrete archetypes anchor product and message choices — a campaign finally spoke to a real person.",
+      "tags": [
+        "persona",
+        "user",
+        "research",
+        "segmentation",
+        "customer",
+        "archetype",
+        "demographics",
+        "goals",
+        "frustrations",
+        "user profile",
+        "who is the user"
+      ],
+      "sections": [
+        "GTM"
+      ],
+      "compare": "vs Empathy Map: a concrete archetype vs a feeling map"
+    },
+    "pestle": {
+      "when": "External forces could blindside the strategy.",
+      "why": "The Political, Economic, Social, Tech, Legal and Environmental scan catches the macro early — a firm spotted a regulation risk in time.",
+      "tags": [
+        "macro",
+        "strategy",
+        "environment"
+      ],
+      "compare": "vs SWOT: scan external macro forces (political…environmental) that SWOT ignores"
+    },
+    "pipeline": {
+      "when": "You're architecting a multi-stage ML or AI pipeline.",
+      "why": "Making data → feature → train → serve explicit keeps it debuggable — a bad stage was isolated fast.",
+      "tags": [
+        "ml",
+        "ai",
+        "pipeline"
+      ]
+    },
+    "pirate": {
+      "when": "You're weighing growth levers across the funnel.",
+      "why": "AARRR shows which stage to invest in — a team stopped spending on acquisition and fixed retention.",
+      "tags": [
+        "growth",
+        "aarrr",
+        "funnel",
+        "retention",
+        "acquisition"
+      ],
+      "sections": [
+        "GTM",
+        "Product"
+      ],
+      "compare": "vs Traction: the AARRR funnel lens on growth"
+    },
+    "pitch": {
+      "when": "You must win backing in a few minutes.",
+      "why": "Forcing the narrative and the ask makes the ask land — a founder got the meeting.",
+      "tags": [
+        "pitch",
+        "story",
+        "funding"
+      ],
+      "compare": "vs Hero: the ASK vs the story"
+    },
+    "pixar": {
+      "when": "You need a story that earns emotional buy-in.",
+      "why": "The 'once upon a time' arc makes change relatable — a restructure was accepted because people saw themselves in it.",
+      "tags": [
+        "story",
+        "pixar",
+        "change"
+      ],
+      "compare": "vs Storybrand: character ARC vs customer-as-hero"
+    },
+    "planning": {
+      "when": "You need a structured plan of record.",
+      "why": "Turning intent into owned, sequenced actions makes accountability real — the plan actually shipped.",
+      "tags": [
+        "plan",
+        "execution",
+        "roadmap"
+      ]
+    },
+    "pmf": {
+      "when": "You're unsure the market wants it yet.",
+      "why": "Product-market-fit signals stop you over-investing too early or too late — a team pivoted before burning out.",
+      "tags": [
+        "pmf",
+        "startup",
+        "validation",
+        "market fit",
+        "signals"
+      ],
+      "sections": [
+        "Product",
+        "GTM"
+      ],
+      "compare": "vs Traction: prove DEMAND exists before hunting the channel"
+    },
+    "porter": {
+      "when": "Industry structure is eating your margins.",
+      "why": "The five forces reveal where the power sits so you can reposition — a firm escaped a power-squeezed segment.",
+      "tags": [
+        "porter",
+        "competition",
+        "strategy",
+        "industry",
+        "forces"
+      ],
+      "sections": [
+        "GTM"
+      ],
+      "compare": "vs SWOT: analyze industry structure & who holds power, not your internal state"
+    },
+    "react": {
+      "when": "You're building a reactive or stateful UI or system.",
+      "why": "Declarative components cut state bugs — a UI's flicker and race conditions vanished.",
+      "tags": [
+        "react",
+        "ui",
+        "state"
+      ]
+    },
+    "reflection": {
+      "when": "An agent — or you — must self-critique to improve.",
+      "why": "Explicit reflection loops raise quality over time — outputs got sharper after a critique pass.",
+      "tags": [
+        "ai",
+        "reflection",
+        "learning"
+      ],
+      "compare": "vs Agents: a self-critique LOOP, not multi-agent handoff"
+    },
+    "rest": {
+      "when": "You're designing web or API resources.",
+      "why": "A uniform interface and statelessness make integration scale — clients composed the API easily.",
+      "tags": [
+        "rest",
+        "api",
+        "architecture"
+      ],
+      "compare": "vs Event/Graph: uniform resource style vs flows/relationships"
+    },
+    "restsvc": {
+      "when": "You're scoping a RESTful service.",
+      "why": "Clear resource naming and verbs prevent API sprawl — the contract stayed consistent as it grew.",
+      "tags": [
+        "rest",
+        "service",
+        "api"
+      ]
+    },
+    "rice": {
+      "when": "Many features are fighting for the roadmap.",
+      "why": "Reach × Impact × Confidence ÷ Effort ranks them objectively — pet projects lost to data.",
+      "how": "RICE scores become the roadmap priority order. The forced conversation about each component surfaces hidden assumptions (e.g., 'we assumed 80% confidence but it's really 50%'). The score is less important than the alignment it creates.",
+      "example": "Intercom (RICE creators) used RICE to cut their roadmap from 60+ features to 12. Feature A (score 600) beat Feature B (score 288) despite B having higher reach — because B needed 5x the effort. They shipped A first and validated the bet in 2 weeks.",
+      "tags": [
+        "rice",
+        "prioritization",
+        "roadmap",
+        "scoring",
+        "features"
+      ],
+      "sections": [
+        "Strategy"
+      ],
+      "compare": "vs Kano: rank features by reach×impact×confidence÷effort"
+    },
+    "riskreward": {
+      "when": "A decision's upside must be weighed against its downside.",
+      "why": "Making the trade explicit and sized stops lopsided bets — a launch risk was capped deliberately.",
+      "tags": [
+        "risk",
+        "reward",
+        "decision"
+      ]
+    },
+    "roadmap": {
+      "when": "Stakeholders need 'what, when, why' at a glance.",
+      "why": "Sequencing the bets and setting expectations aligns everyone — a roadmap ended the quarterly surprise.",
+      "tags": [
+        "roadmap",
+        "plan",
+        "alignment"
+      ],
+      "compare": "vs Workplan: what/when/why at a glance, not week-by-week"
+    },
+    "scamper": {
+      "when": "You're stuck improving an existing product, service or process.",
+      "why": "The 7 verbs — Substitute / Combine / Adapt / Modify / Put to other use / Eliminate / Reverse — give a checklist that systematically varies an existing solution, so you generate concrete variants instead of staring at a blank page.",
+      "tags": [
+        "ideation",
+        "improvement",
+        "scamper"
+      ],
+      "compare": "vs First Principles: remix/adapt the existing thing, don't rebuild it"
+    },
+    "scopeai": {
+      "when": "An AI project's boundaries keep creeping.",
+      "why": "Fixing in/out and success criteria up front stops scope blow-up — a model shipped on time.",
+      "tags": [
+        "ai",
+        "scope",
+        "requirements"
+      ],
+      "compare": "vs others: pin the AI project's scope & success criteria first"
+    },
+    "scqa": {
+      "when": "You must open a story or argument with tension.",
+      "why": "Situation-Complication-Question-Answer grabs attention and earns the recommendation — the narrative landed.",
+      "tags": [
+        "scqa",
+        "story",
+        "communication",
+        "narrative",
+        "persuasion"
+      ],
+      "sections": [
+        "Storytelling",
+        "McKinsey"
+      ],
+      "compare": "vs Minto: open with Situation-Complication-Question before the answer"
+    },
+    "dsChooser": {
+      "when": "You're solving a coding interview problem and need to identify the right algorithm pattern.",
+      "why": "Maps problem characteristics to the 94 canonical DS/algorithm patterns — sorted? subarray? graph? — so you quickly pick the right approach and talk through it confidently.",
+      "tags": [
+        "interview",
+        "algorithm",
+        "data-structures",
+        "leetcode",
+        "patterns"
+      ],
+      "compare": "vs blind LeetCode grind: organised by pattern family, not difficulty; vs algorithm cheat sheets: decision-focused, not problem-first."
+    },
+    "sipoc": {
+      "when": "You're mapping a process for improvement.",
+      "why": "Suppliers-Inputs-Process-Outputs-Customers sets clean boundaries — the right owners engaged.",
+      "tags": [
+        "process",
+        "sipoc",
+        "six sigma"
+      ]
+    },
+    "starburst": {
+      "when": "You need to interrogate an idea from every angle.",
+      "why": "Six-direction questioning exposes the blind spots — a proposal's untested assumption showed up in time.",
+      "tags": [
+        "ideation",
+        "questions",
+        "brainstorm"
+      ],
+      "compare": "vs SCAMPER: interrogate an idea from 6 directions vs remix it"
+    },
+    "storybrand": {
+      "when": "Your brand message is confusing to buyers.",
+      "why": "Positioning the customer as hero and the brand as guide clarifies the offer — conversion rose after the rewrite.",
+      "tags": [
+        "brand",
+        "story",
+        "message"
+      ],
+      "compare": "vs Pixar: you are the GUIDE, customer is the hero",
+      "skill": [
+        {
+          "title": "Your SB7 BrandScript",
+          "body": "Fill in: HERO (one customer, one desire): ___ PROBLEM (external / internal / philosophical): ___ GUIDE (empathy + authority): ___ PLAN (3 steps + agreement): ___ CTA (direct + transitional): ___ FAILURE (cost of inaction): ___ SUCCESS (transformation): ___ ONE-LINER: We help [CHARACTER] who struggle with [PROBLEM] [SOLUTION] so they can [RESULT]."
+        },
+        {
+          "title": "The Cocktail Party Test",
+          "body": "Read your one-liner aloud. Wait 5 minutes. Ask someone to repeat it. If they cannot, simplify until they can. Good: 'We help remote teams stay aligned so they ship faster.' Bad: 'Our AI-powered platform optimizes cross-functional collaboration.'"
+        }
+      ],
+      "examples": [
+        "SB7 elements: Character (desire) → Problem (villain) → Guide (empathy) → Plan (steps) → CTA (ask) → Failure (stakes) → Success (transformation)",
+        "One-liner formula: We help [CHARACTER] who struggle with [PROBLEM] [SOLUTION] so they can [RESULT]"
+      ],
+      "casestudy": "Figma: positioned designers as heroes struggling with fragmented tools (external), feeling frustrated (internal), believing design should be collaborative (philosophical). Figma positioned as guide with empathy + authority, 3-step plan, clear CTA.",
+      "integration": "Use with BrandScript Worksheet × Sales Conversations × Multi-Channel Consistency for complete messaging system"
+    },
+    "storybrandWorksheet": {
+      "when": "You need a structured template to build your BrandScript from scratch.",
+      "why": "Fillable fields with scoring rubric force completeness — every element gets attention, not just the ones you find easy.",
+      "tags": [
+        "brand",
+        "story",
+        "message",
+        "worksheet",
+        "template"
+      ],
+      "compare": "vs SB7 Framework: teaches the model vs Worksheet: fillable template to BUILD your story",
+      "skill": [
+        {
+          "title": "Your Character Profile",
+          "body": "Fill in: Our customer is: ___ They want (one specific desire): ___ They want to be seen as: ___ Bad: 'Businesses who need marketing help.' Good: 'Marketing director at a 50-person SaaS company who wants to prove ROI to the CEO.' Specificity creates empathy."
+        },
+        {
+          "title": "Your Problem Stack",
+          "body": "Fill in: External (tangible villain): ___ Internal (how it feels): ___ Philosophical (why it matters): ___ Villain (personified enemy): ___ Bad: 'We help with lead generation.' Good: External: 'Lead flow is unpredictable.' Internal: 'I feel like I am always firefighting.' Philosophical: 'Marketing should be a growth engine, not a cost center.'"
+        },
+        {
+          "title": "Your Scoring Rubric",
+          "body": "Rate each element 1-5: Character ___ Problem ___ Guide ___ Plan ___ CTA ___ Failure ___ Success ___. Total: ___/35. 30-35 = Strong. 20-29 = Fix the 1-2 lowest. Below 20 = Start over from Section 1."
+        }
+      ],
+      "examples": [
+        "Worksheet flow: Character → Problem → Guide → Plan → CTA → Failure → Success → One-Liner → Score",
+        "Scoring: 7 elements × 5 points = 35 max. Target 30+ for launch-ready messaging."
+      ],
+      "casestudy": "Slack: Worksheet would show — Character: team lead frustrated by email. Problem: scattered communication (external), overwhelmed (internal), teams deserve clarity (philosophical). Guide: 'We built Slack because we hated email.' Plan: Sign up → Invite team → Start chatting.",
+      "integration": "Complete SB7 Framework first, then use Worksheet to formalize. Feed results into Sales Conversations × Multi-Channel Consistency"
+    },
+    "storybrandSales": {
+      "when": "Your sales team needs a structured, story-based conversation framework.",
+      "why": "The salesperson becomes the GUIDE in the conversation — discovery → positioning → plan → stakes → CTA. Conversion rose 35% after sales teams adopted SB7 conversational structure.",
+      "tags": [
+        "sales",
+        "story",
+        "discovery",
+        "objections",
+        "conversion"
+      ],
+      "compare": "vs Made to Stick: make ideas memorable vs Sales: make conversations convert",
+      "skill": [
+        {
+          "title": "Your Discovery Call Prep",
+          "body": "Before the call: What is their likely PROBLEM (external)? ___ What industry-specific villain might they face? ___ What EMPATHY statement can you open with? ___ What AUTHORITY proof is most relevant? ___ Preparation takes 10 minutes and doubles your conversion rate."
+        },
+        {
+          "title": "Your Qualification Scorecard",
+          "body": "Rate after every call (1-5): Problem clarity ___ Pain intensity ___ Budget authority ___ Timeline urgency ___ Plan buy-in ___. Total: ___/25. 20-25 = Hot lead. 12-19 = Nurture with case studies. Below 12 = Revisit problem clarity."
+        },
+        {
+          "title": "Your Price Anchor",
+          "body": "Fill in: Their problem costs: $___/year. Your solution costs: $___/year. Ratio: ___%. Rule: If ratio > 25%, anchor harder against the problem. If ratio < 10%, you may be underpriced. Sentence: 'This problem costs you $[X] per year. Our solution is $[Y] — less than [Z]% of what you are losing.'"
+        }
+      ],
+      "examples": [
+        "Discovery flow: Opening (5 min) → Exploration (15 min) → Positioning (5 min) → Plan + Stakes (15 min) → CTA (5 min)",
+        "Objection reframe: Acknowledge → Explore → Reframe around cost of inaction"
+      ],
+      "casestudy": "Intercom: Sales team uses SB7 structure — opens with 'What is the most frustrating part of your customer communication?' (internal problem), positions as guide with empathy, presents 3-step plan, anchors price against cost of lost customers.",
+      "integration": "Use SB7 Framework × Worksheet to prepare. Feed qualification scores into CRM. Follow up using Follow-Up Sequence templates"
+    },
+    "storybrandMultichannel": {
+      "when": "Your messaging feels inconsistent across social, video, email, and PR.",
+      "why": "Same story, different telling — core SB7 elements stay constant while format adapts per platform. Consistency builds recognition; adaptation builds relevance.",
+      "tags": [
+        "content",
+        "story",
+        "social",
+        "video",
+        "email",
+        "multichannel"
+      ],
+      "compare": "vs SB7 Framework: build the story vs Multichannel: deploy the story everywhere",
+      "skill": [
+        {
+          "title": "Your Platform Selection",
+          "body": "Pick 2 platforms max: LinkedIn (B2B authority) ___ TikTok (awareness) ___ Instagram (visual brands) ___ Twitter/X (thought leadership) ___ YouTube (deep content) ___ Email (nurture) ___. Rule: Consistency on 2 beats sporadic presence on 5. Which 2 are YOUR customers on?"
+        },
+        {
+          "title": "Your Content Calendar",
+          "body": "Week 1: LinkedIn post + Email newsletter. Week 2: Video (YouTube/TikTok) + Social clips. Week 3: Podcast guest pitch + Blog post. Week 4: Case study + Retarget ads. Repeat monthly with fresh angles. Fill in: Your Week 1 post topic: ___. Your Week 2 video topic: ___."
+        },
+        {
+          "title": "Your 8-Point Checklist",
+          "body": "Before publishing ANY content, verify all 8: Customer as hero? ___ Brand as guide? ___ Problem named? ___ Clear plan? ___ Success stakes? ___ Clear CTA? ___ Right tone? ___ Right format for platform? ___ If any box is unchecked, rewrite until all 8 are satisfied."
+        }
+      ],
+      "examples": [
+        "Platform adaptation: Same hero/problem/plan/stakes — different length, tone, and entry point per channel",
+        "Content calendar: 4-week cycle — post, video, pitch, case study — repeat with fresh angles"
+      ],
+      "casestudy": "Figma: Consistent SB7 story across all channels — designers as heroes, fragmented tools as villain, Figma as guide. LinkedIn = thought leadership posts. YouTube = tutorials. Twitter = community engagement. Email = product updates. Same story, different telling.",
+      "integration": "Start with SB7 Framework × Worksheet. Feed into Sales Conversations for outbound. Use Checklist before every publish."
+    },
+    "storymap": {
+      "when": "A backlog is a flat list with no user flow.",
+      "why": "Backbone plus walking skeleton show the value sequencing — the team shipped the right slice first.",
+      "tags": [
+        "story map",
+        "agile",
+        "product"
+      ]
+    },
+    "structural": {
+      "when": "You're assessing org or system structure.",
+      "why": "Making reporting and accountability explicit reveals where decisions actually stick — a bottleneck became visible.",
+      "tags": [
+        "structure",
+        "org",
+        "design"
+      ]
+    },
+    "swot": {
+      "when": "The client walks into a strategy offsite asking 'where do we stand?' and the room is all opinion.",
+      "why": "Four lenses on one page force an honest snapshot — a retailer used it to see the real threat was channel shift, not the rival everyone blamed, and reset the agenda in an hour.",
+      "how": "SWOT output feeds into strategy formulation: Strengths → Leverage, Weaknesses → Fix, Opportunities → Invest, Threats → Defend. The cross-analysis (SO/WO/ST/WT) becomes the strategic options list that leadership chooses from.",
+      "example": "Netflix's SWOT in 2011: Strength (brand, content library), Weakness (DVD-by-mail is dying), Opportunity (streaming is growing), Threat (Amazon, Hulu). The SWOT made the pivot to streaming undeniable — but the execution (Qwikster debacle) showed SWOT is only as good as the action plan that follows.",
+      "tags": [
+        "swot",
+        "situation",
+        "strategy",
+        "diagnostic",
+        "assessment"
+      ],
+      "sections": [
+        "Product",
+        "Strategy"
+      ],
+      "compare": "vs PESTLE: snapshot YOUR firm, not the macro environment · vs Porter: diagnose position, not industry structure"
+    },
+    "sysdesign": {
+      "when": "You must design a scalable, reliable system.",
+      "why": "Forcing trade-offs on consistency, latency and failure makes the architecture defensible — an outage was designed out.",
+      "tags": [
+        "system design",
+        "scale",
+        "architecture"
+      ],
+      "compare": "vs Micro: the scalability/consistency TRADE-OFF conversation"
+    },
+    "thesis": {
+      "when": "You must state and defend a central claim.",
+      "why": "One defensible thesis focuses the whole argument — a report stopped wandering and convinced.",
+      "tags": [
+        "thesis",
+        "argument",
+        "communication"
+      ],
+      "compare": "vs Minto: the single CLAIM vs the full pyramid"
+    },
+    "togaf": {
+      "when": "You need an enterprise architecture blueprint.",
+      "why": "The ADM gives a repeatable EA method — a merger's systems were rationalised instead of duplicated.",
+      "tags": [
+        "togaf",
+        "enterprise architecture",
+        "ea"
+      ],
+      "compare": "vs others: a repeatable ENTERPRISE architecture method"
+    },
+    "tooluse": {
+      "when": "An agent must call external tools reliably.",
+      "why": "Structured tool interfaces cut hallucination — the agent used the right tool instead of guessing.",
+      "tags": [
+        "ai",
+        "tools",
+        "agents"
+      ],
+      "compare": "vs Agents: just the structured tool INTERFACE, not autonomy"
+    },
+    "traction": {
+      "when": "Investors ask 'how will you actually get users?'",
+      "why": "The 19 channels help you find the one repeatable engine — a startup stopped guessing and found its channel.",
+      "tags": [
+        "traction",
+        "growth",
+        "startup",
+        "channels",
+        "acquisition"
+      ],
+      "sections": [
+        "GTM",
+        "Product"
+      ],
+      "compare": "vs Pirate: the 19 channels to find ONE repeatable engine"
+    },
+    "momTest": {
+      "when": "You have an idea but no evidence anyone will pay for it — and you suspect people are being polite.",
+      "why": "The Mom Test forces you to ask about their past behavior instead of pitching your idea. Compliments are free; commitment (time, reputation, money) is truth.",
+      "how": "Mom Test outputs feed into Lean Canvas (Problem validation), ICP (who specifically), and JTBD (what job they're hiring for). The conversation insights go into the Insight Ledger for pattern analysis.",
+      "example": "Rob Fitzpatrick validated his event-tech startup with 100 Mom Test conversations. He discovered attendees didn't care about networking (his assumption) — they cared about finding talks worth attending. The pivot from 'better networking' to 'better discovery' came from listening, not pitching.",
+      "tags": [
+        "customer validation",
+        "startup",
+        "interviews",
+        "customer discovery",
+        "mom test",
+        "rob fitzpatrick",
+        "talking to customers",
+        "market validation"
+      ],
+      "sections": [
+        "Product"
+      ]
+    },
+    "valuation": {
+      "when": "You must defend a number for a company or a stake.",
+      "why": "Multiple frameworks cross-check the price so the valuation survives challenge — a deal priced fairly.",
+      "tags": [
+        "valuation",
+        "finance",
+        "deal"
+      ]
+    },
+    "value": {
+      "when": "You don't know what customers truly value.",
+      "why": "Jobs, pains and gains focus the offer on real value — a feature set finally matched the need.",
+      "tags": [
+        "value proposition",
+        "customer",
+        "canvas",
+        "pains",
+        "gains",
+        "customer profile",
+        "what matters",
+        "value map",
+        "jobs pains gains"
+      ],
+      "compare": "vs Canvas: the customer-value HALF of the business model"
+    },
+    "vision": {
+      "when": "The team lacks a shared north star.",
+      "why": "A clear vision aligns autonomous decisions — a distributed team pulled the same way without meetings.",
+      "tags": [
+        "vision",
+        "strategy",
+        "alignment"
+      ]
+    },
+    "vsm": {
+      "when": "A process is slow and you don't know why.",
+      "why": "A value-stream map exposes wait time versus work time — a team cut lead time by attacking the queue, not the work.",
+      "tags": [
+        "value stream",
+        "lean",
+        "process"
+      ]
+    },
+    "jsNexus": {
+      "when": "You must show how scattered experiences connect into one story.",
+      "why": "The nexus view turns a non-linear career into a clear through-line — a career-changer framed three roles as one trajectory and got the interview.",
+      "tags": [
+        "job",
+        "story",
+        "career"
+      ]
+    },
+    "jsVector": {
+      "when": "You need to point your skills at a specific target role.",
+      "why": "A vector makes the direction explicit so applications stop scattering — a candidate focused and got callbacks.",
+      "tags": [
+        "job",
+        "target",
+        "skills"
+      ]
+    },
+    "jsTShape": {
+      "when": "You must show both breadth and one deep specialty.",
+      "why": "The T shape reassures hiring managers you can collaborate and still go deep — an IC landed a senior role.",
+      "tags": [
+        "job",
+        "skills",
+        "t-shape"
+      ]
+    },
+    "jsPresentPastFuture": {
+      "when": "You're explaining a career move across time.",
+      "why": "Framing past → present → future makes the pivot sensible — a switcher showed intent, not drift.",
+      "tags": [
+        "job",
+        "narrative",
+        "career"
+      ]
+    },
+    "jsValueBridge": {
+      "when": "You must connect what the employer needs to what you offer.",
+      "why": "The bridge makes the fit obvious instead of hopeful — a candidate answered 'why you?' cleanly.",
+      "tags": [
+        "job",
+        "fit",
+        "value"
+      ]
+    },
+    "jsWhyHook": {
+      "when": "You need a hook that makes the listener lean in.",
+      "why": "A sharp why-hook opens the conversation — a pitch started with the result, not the résumé.",
+      "tags": [
+        "job",
+        "hook",
+        "pitch"
+      ]
+    },
+    "jsSkillsStack": {
+      "when": "You must present a stack of complementary skills.",
+      "why": "Stacking shows leverage across skills — a generalist looked like a multiplier, not a dabbler.",
+      "tags": [
+        "job",
+        "skills",
+        "stack"
+      ]
+    },
+    "jsProblemSolver": {
+      "when": "You're asked 'tell me about a hard problem you solved.'",
+      "why": "Structuring the story around the problem lands the impact — a candidate gave a memorable, result-led answer.",
+      "tags": [
+        "job",
+        "behavioral",
+        "story"
+      ]
+    },
+    "jsHookStoryClose": {
+      "when": "You must open strong and close with the ask.",
+      "why": "Hook-story-close keeps the listener engaged to the point — an interview ended with a clear next step.",
+      "tags": [
+        "job",
+        "story",
+        "close"
+      ]
+    },
+    "js3Pillar": {
+      "when": "You need three pillars to organise your candidacy.",
+      "why": "Three pillars make you easy to remember — a candidate became 'the X-Y-Z person.'",
+      "tags": [
+        "job",
+        "positioning",
+        "pillars"
+      ]
+    },
+    "rbXyz": {
+      "when": "You must state your value in one tight line.",
+      "why": "The XYZ formula (accomplished X by Y, resulting in Z) is concrete and credible — a summary stopped being vague.",
+      "tags": [
+        "resume",
+        "achievement",
+        "xyz"
+      ]
+    },
+    "rbPar": {
+      "when": "You need PAR bullets (Problem-Action-Result).",
+      "why": "PAR turns duties into outcomes — a résumé started showing impact instead of tasks.",
+      "tags": [
+        "resume",
+        "par",
+        "bullets"
+      ]
+    },
+    "rbForceMultiplier": {
+      "when": "You want to show leverage, not just effort.",
+      "why": "Force-multiplier framing proves impact beyond your hours — a manager saw scalability in the hire.",
+      "tags": [
+        "resume",
+        "impact",
+        "leverage"
+      ]
+    },
+    "rbCategoryOne": {
+      "when": "You must be the obvious #1 choice in a category.",
+      "why": "Claiming category one makes comparison easy — a candidate became the default pick.",
+      "tags": [
+        "resume",
+        "positioning",
+        "category"
+      ]
+    },
+    "rbBeforeAfter": {
+      "when": "You need to show transformation clearly.",
+      "why": "Before-after bullets prove change — a résumé showed measurable turnarounds.",
+      "tags": [
+        "resume",
+        "transformation",
+        "before after"
+      ]
+    },
+    "jsIceberg": {
+      "when": "You must show the hidden depth beneath visible results.",
+      "why": "The iceberg metaphor reveals substance under surface wins — a candidate looked deeper than the headline.",
+      "tags": [
+        "job",
+        "depth",
+        "story"
+      ]
+    },
+    "js3Tier": {
+      "when": "You must organise experience into three tiers.",
+      "why": "Tiers show range and focus at once — a portfolio read clearly top to bottom.",
+      "tags": [
+        "job",
+        "tiers",
+        "experience"
+      ]
+    },
+    "jsPainKiller": {
+      "when": "You must show you remove the employer's pain.",
+      "why": "Pain-killer framing centres the employer's problem — the fit felt urgent.",
+      "tags": [
+        "job",
+        "pain",
+        "fit"
+      ]
+    },
+    "jsActionVerb": {
+      "when": "Your bullets read as passive duties.",
+      "why": "Strong action verbs make ownership obvious — a résumé started with results-led sentences.",
+      "tags": [
+        "resume",
+        "verbs",
+        "action"
+      ]
+    },
+    "jsReverse": {
+      "when": "You must flip the interview to your strengths.",
+      "why": "Reversing the frame puts your assets centre stage — a candidate steered a weak question to a strong answer.",
+      "tags": [
+        "job",
+        "interview",
+        "reverse"
+      ]
+    },
+    "jsLifecycle": {
+      "when": "You must show impact across a product or project lifecycle.",
+      "why": "Lifecycle framing proves end-to-end ownership — a PM looked complete, not partial.",
+      "tags": [
+        "job",
+        "lifecycle",
+        "ownership"
+      ]
+    },
+    "jsBlueOcean": {
+      "when": "You must show a unique, uncontested angle.",
+      "why": "Blue-ocean framing differentiates you from the crowd — a candidate avoided a bloody comparison.",
+      "tags": [
+        "job",
+        "differentiation",
+        "blue ocean"
+      ]
+    },
+    "galbraithStar": {
+      "when": "A reorg keeps stalling because departments optimise locally.",
+      "why": "The Star shows strategy, structure, processes, rewards and people must move together — a telco redrew the boxes but kept sales comp unchanged and watched behaviour snap back, exactly what the model predicts.",
+      "tags": [
+        "org design",
+        "galbraith",
+        "alignment"
+      ],
+      "compare": "vs Weisbord: the five design LEVERS (strategy/structure/process/reward/people)"
+    },
+    "weisbord6box": {
+      "when": "You're diagnosing why an organisation isn't working as a system.",
+      "why": "Six boxes (Purpose, Structure, Rewards, Relationships, Leadership, Helpful mechanisms) reveal the weak link — a nonprofit fixed coordination after spotting a leadership gap.",
+      "tags": [
+        "org design",
+        "weisbord",
+        "diagnostic"
+      ],
+      "compare": "vs Nadler-Tushman: six-box diagnostic vs congruence/fit view"
+    },
+    "nadlerTushman": {
+      "when": "You need to see how the parts of an org fit and produce results.",
+      "why": "The congruence model shows the misfit between inputs and transforms — a merger's friction traced to clashing cultures, not strategy.",
+      "tags": [
+        "org design",
+        "congruence",
+        "fit"
+      ],
+      "compare": "vs Burke-Litwin: congruence/fit of parts vs the causal drivers"
+    },
+    "burkeLitwin": {
+      "when": "You must separate what drives transformation from what drives steady-state.",
+      "why": "It distinguishes external factors and transformational levers from transactional ones — a change effort targeted motivation, not just structure, and stuck.",
+      "tags": [
+        "org design",
+        "burke-litwin",
+        "change"
+      ],
+      "compare": "vs Nadler-Tushman: separates TRANSFORMATION vs steady-state drivers"
+    },
+    "mintzbergConfig": {
+      "when": "You're choosing an overall organizational configuration.",
+      "why": "Simple, Machine, Professional, Divisional, Adhocracy and Missionary shapes clarify the trade-offs — a scale-up picked divisional before it broke.",
+      "tags": [
+        "org design",
+        "mintzberg",
+        "configuration"
+      ],
+      "compare": "vs Lawrence-Lorsch: whole-config shapes vs differentiation/integration"
+    },
+    "lawrenceLorsch": {
+      "when": "You must balance differentiation across units with integration.",
+      "why": "It shows when tight coupling helps or hurts — a firm integrated only where dependency was real and stayed agile elsewhere.",
+      "tags": [
+        "org design",
+        "differentiation",
+        "integration"
+      ],
+      "compare": "vs Mintzberg: when to couple units tightly vs pick a config"
+    },
+    "gooldCampbell9": {
+      "when": "You're designing the parent company's role over business units.",
+      "why": "Nine tests separate value-adding from value-destroying corporate behaviour — a HQ stopped micromanaging and lifted BU performance.",
+      "tags": [
+        "org design",
+        "parenting",
+        "goold campbell"
+      ],
+      "compare": "vs Goold Parenting: the nine TESTS vs the \"where HQ adds value\" question"
+    },
+    "ambidextrous": {
+      "when": "You must exploit today and explore tomorrow at once.",
+      "why": "Separate units for efficiency and innovation avoid the conflict — a firm grew a new business without starving the core.",
+      "tags": [
+        "org design",
+        "ambidextrous",
+        "innovation"
+      ],
+      "compare": "vs Functional: run exploit + explore as SEPARATE units"
+    },
+    "socioTechnical": {
+      "when": "You're redesigning work and tech together.",
+      "why": "Joint optimisation of social and technical systems beats either alone — a plant raised both output and morale.",
+      "tags": [
+        "org design",
+        "socio-technical",
+        "work"
+      ],
+      "compare": "vs Holacracy: optimize social+technical jointly vs replace managers"
+    },
+    "holacracy": {
+      "when": "You want to replace managers with distributed roles.",
+      "why": "Explicit roles and circles cut hierarchical drag — a startup shipped faster but needed discipline to avoid meeting creep.",
+      "tags": [
+        "org design",
+        "holacracy",
+        "self-management"
+      ],
+      "compare": "vs Socio-Technical: distributed ROLES vs joint optimization"
+    },
+    "ona": {
+      "when": "You need to see how influence actually flows, not the org chart.",
+      "why": "Organizational network analysis finds the hidden hubs and bottlenecks — a leader discovered the real broker and unblocked decisions.",
+      "tags": [
+        "org design",
+        "network",
+        "ona"
+      ]
+    },
+    "mckinseyOHI": {
+      "when": "You must measure organizational health, not just structure.",
+      "why": "The Organizational Health Index links practices to performance — a unit improved the nine practices and lifted results.",
+      "tags": [
+        "org design",
+        "health",
+        "mckinsey"
+      ]
+    },
+    "deloitteOD": {
+      "when": "You're running an organization-design diagnostic.",
+      "why": "Deloitte's model frames the choices leaders must make — a redesign aligned on the right trade-offs.",
+      "tags": [
+        "org design",
+        "deloitte",
+        "diagnostic"
+      ]
+    },
+    "katesKesler": {
+      "when": "You're designing organization structure at scale.",
+      "why": "Kates-Kesler's principles keep structure coherent as it grows — a global firm avoided duplication.",
+      "tags": [
+        "org design",
+        "structure",
+        "kates kesler"
+      ]
+    },
+    "ashridgePOLISM": {
+      "when": "You must weigh the political and cultural reality of a design.",
+      "why": "POLISM (Political, Operational, Legal, Isomorphic, Symbolic, Moral) surfaces what kills designs on the ground — a plan was adjusted before rollout.",
+      "tags": [
+        "org design",
+        "ashridge",
+        "politics"
+      ]
+    },
+    "mitCisrOM": {
+      "when": "You're designing how central IT and business units relate.",
+      "why": "MIT CISR's operating models clarify automation vs differentiation — a bank set the right split and cut cost without losing edge.",
+      "tags": [
+        "org design",
+        "mit cisr",
+        "it"
+      ]
+    },
+    "tomFw": {
+      "when": "You need a general theory of organization design.",
+      "why": "The TOM framework links strategy, structure and management processes — a redesign stayed coherent end to end.",
+      "tags": [
+        "org design",
+        "tom",
+        "framework"
+      ]
+    },
+    "somsFw": {
+      "when": "You're comparing multiple org-design schools.",
+      "why": "The SOMS view synthesises the main models so you pick deliberately — a team chose knowingly, not by fashion.",
+      "tags": [
+        "org design",
+        "soms",
+        "synthesis"
+      ]
+    },
+    "funcStruct": {
+      "when": "You're deciding between functional and other structures.",
+      "why": "Functional structure builds deep expertise but can silo — a firm accepted the trade-off knowingly.",
+      "tags": [
+        "structure",
+        "functional",
+        "org"
+      ]
+    },
+    "divisionalM": {
+      "when": "You're structuring by product, market or geography.",
+      "why": "Divisional structure gives focus and accountability per unit — a conglomerate empowered BUs and grew.",
+      "tags": [
+        "structure",
+        "divisional",
+        "org"
+      ]
+    },
+    "matrixStruct": {
+      "when": "You need dual reporting for function and product.",
+      "why": "Matrix balances two axes but adds complexity — a firm used it only where the second axis truly mattered.",
+      "tags": [
+        "structure",
+        "matrix",
+        "org"
+      ]
+    },
+    "networkOrg": {
+      "when": "You're designing a loosely coupled network of units.",
+      "why": "Network orgs scale through relationships, not hierarchy — an NGO coordinated partners without a heavy centre.",
+      "tags": [
+        "structure",
+        "network",
+        "org"
+      ]
+    },
+    "modularOrg": {
+      "when": "You can outsource non-core blocks cleanly.",
+      "why": "Modularity lets you swap modules and stay lean — a manufacturer outsourced commodity parts and kept the core.",
+      "tags": [
+        "structure",
+        "modular",
+        "org"
+      ]
+    },
+    "virtualOrg": {
+      "when": "The work is done by partners, not employees.",
+      "why": "Virtual orgs pool capability without fixed cost — a project firm assembled talent per engagement.",
+      "tags": [
+        "structure",
+        "virtual",
+        "org"
+      ]
+    },
+    "teamBasedOrg": {
+      "when": "You want work done by cross-functional teams.",
+      "why": "Team-based design speeds response and ownership — a unit cut handoffs and shipped faster.",
+      "tags": [
+        "structure",
+        "team",
+        "org"
+      ],
+      "compare": "vs Functional: cross-functional TEAMS vs deep specialties"
+    },
+    "processBasedOrg": {
+      "when": "You're organising around end-to-end processes.",
+      "why": "Process-based design kills functional handoff delays — an insurer cut cycle time by re-teaming around the claim.",
+      "tags": [
+        "structure",
+        "process",
+        "org"
+      ]
+    },
+    "projectBasedOrg": {
+      "when": "Work is one-off projects, not steady operations.",
+      "why": "Project-based design fits temporary, unique work — a consultancy staffed by project and stayed flexible.",
+      "tags": [
+        "structure",
+        "project",
+        "org"
+      ]
+    },
+    "valueChainOrg": {
+      "when": "You must align the org to the value chain.",
+      "why": "Value-chain structure links activities to margin — a retailer organised around the chain and lifted profitability.",
+      "tags": [
+        "structure",
+        "value chain",
+        "org"
+      ]
+    },
+    "multidimOrg": {
+      "when": "You need more than two axes of structure.",
+      "why": "Multi-dimensional design serves complex markets — a global product firm balanced region and product.",
+      "tags": [
+        "structure",
+        "multidim",
+        "org"
+      ]
+    },
+    "sharedServices": {
+      "when": "You can centralise back-office functions.",
+      "why": "Shared services cut duplication and cost — a group saved by pooling HR and finance.",
+      "tags": [
+        "structure",
+        "shared services",
+        "org"
+      ]
+    },
+    "hubSpoke": {
+      "when": "You need a centre coordinating dispersed nodes.",
+      "why": "Hub-and-spoke balances control with local reach — a logistics firm optimised flow through the hub.",
+      "tags": [
+        "structure",
+        "hub spoke",
+        "org"
+      ]
+    },
+    "frontBack": {
+      "when": "You separate customer-facing from production.",
+      "why": "Front-back structure aligns to the customer while keeping delivery efficient — a bank improved service without bloating ops.",
+      "tags": [
+        "structure",
+        "front back",
+        "org"
+      ]
+    },
+    "platformOrg": {
+      "when": "You're building a platform others build on.",
+      "why": "Platform orgs scale through ecosystem — a tech firm enabled third parties and grew the network.",
+      "tags": [
+        "structure",
+        "platform",
+        "org"
+      ]
+    },
+    "ecosystemOrg": {
+      "when": "Value is co-created with outside partners.",
+      "why": "Ecosystem design leverages external capability — a firm innovated faster than it could alone.",
+      "tags": [
+        "structure",
+        "ecosystem",
+        "org"
+      ]
+    },
+    "leanValueStreamOrg": {
+      "when": "You want the org shaped around value streams.",
+      "why": "Lean value-stream design removes waste between steps — a unit cut lead time by reorganising around the flow.",
+      "tags": [
+        "structure",
+        "lean",
+        "value stream"
+      ]
+    },
+    "holonicOrg": {
+      "when": "You need semi-autonomous units that compose.",
+      "why": "Holonic design gives both autonomy and whole-system coherence — a manufacturer balanced local speed with global standards.",
+      "tags": [
+        "structure",
+        "holonic",
+        "org"
+      ]
+    },
+    "customerSegOrg": {
+      "when": "You're organising around customer segments.",
+      "why": "Segment-based structure sharpens focus per customer — a firm served enterprises and SMBs without conflict.",
+      "tags": [
+        "structure",
+        "customer",
+        "org"
+      ]
+    },
+    "gooldParenting": {
+      "when": "You're defining what the centre should add.",
+      "why": "Parenting fit shows where HQ creates value — a conglomerate exited businesses it couldn't help.",
+      "tags": [
+        "parenting",
+        "goold",
+        "org"
+      ],
+      "compare": "vs Goold Control: what the CENTER should add vs how tightly to control"
+    },
+    "gooldControlMatrix": {
+      "when": "You must set the right control style per unit.",
+      "why": "Financial, strategic and operational control matched to each BU — a parent stopped over-controlling some units.",
+      "tags": [
+        "control",
+        "goold",
+        "org"
+      ]
+    },
+    "bcgMatrix": {
+      "when": "You're reviewing the corporate portfolio of business units.",
+      "why": "The BCG matrix (Stars, Cash Cows, Question Marks, Dogs) guides where to invest — a parent funded its star and harvested a cow.",
+      "tags": [
+        "portfolio",
+        "bcg",
+        "org"
+      ],
+      "compare": "vs BCG (Strategy): corporate PORTFOLIO of units vs single-business matrix"
+    },
+    "gtmEngine": {
+      "when": "You need a single view of how market signals become revenue — and where the loop breaks.",
+      "why": "The engine metaphor forces every gear (insight → value → motion → execution → feedback) to be aligned — a launch stalled because messaging didn't match the channel.",
+      "how": "The GTM Engine output becomes the blueprint for your growth model. Each gear maps to a team (Insight = Research, Value = Product Marketing, Motion = Demand Gen, Execution = Sales, Feedback = CS). Misaligned gears = broken revenue engine.",
+      "example": "Notion's GTM Engine: Insight (teams waste time switching between 5 tools) → Value ('all-in-one workspace') → Motion (product-led, templates, community) → Execution (self-serve + enterprise sales) → Feedback (template gallery + community). Each gear reinforces the next.",
+      "tags": [
+        "gtm",
+        "launch",
+        "revenue",
+        "loop",
+        "engine",
+        "system"
+      ],
+      "sections": [
+        "Strategy",
+        "Product"
+      ]
+    },
+    "icp": {
+      "when": "You're about to launch and haven't locked who you're selling to — or why they'd care.",
+      "why": "ICP + TAM/SAM/SOM + persona cards force the 'who' before the 'how' — a team stopped diluting message across five segments and closed faster on one.",
+      "how": "The ICP output feeds directly into messaging (Promise), channel selection (GTM Engine), and sales enablement (Objection Replies). Without a clear ICP, every downstream GTM decision is guesswork.",
+      "example": "Figma's ICP identified 'product designers at Series A–C SaaS startups' as the beachhead — not all designers. This let them nail the messaging ('design together in real time') and channel (product-led, free tier) that drove 4M+ users before enterprise.",
+      "tags": [
+        "gtm",
+        "icp",
+        "persona",
+        "segmentation",
+        "target",
+        "market",
+        "problem statement",
+        "pain points",
+        "why now",
+        "messaging",
+        "promise",
+        "proof points",
+        "objection handling",
+        "customer profile",
+        "who is the buyer"
+      ],
+      "sections": [
+        "Product",
+        "Strategy"
+      ]
+    },
+    "insightLedger": {
+      "when": "You're doing customer discovery but insights live in scattered notes, Slack threads, and sticky pads — nobody can find what was learned.",
+      "why": "The Insight Ledger structures every discovery interview into Context → Trigger → Impact → Workaround → Motivation with evidence and archetype fields — so patterns emerge when 3+ customers say the same thing, not when you squint at spreadsheets.",
+      "tags": [
+        "customer",
+        "discovery",
+        "insight",
+        "interview",
+        "jtbd",
+        "research",
+        "evidence",
+        "workaround",
+        "trigger",
+        "user research",
+        "qualitative",
+        "patterns"
+      ],
+      "sections": [
+        "Product"
+      ]
+    },
+    "valueMatrix": {
+      "when": "Messaging sounds like marketing fluff and the team can't articulate what you actually solve.",
+      "why": "Problem → Solution → Proof makes every claim evidence-backed — a pitch deck went from feature-list to ROI-backed and land rates doubled.",
+      "how": "The Value Matrix output feeds directly into sales battle cards, website copy, and pitch decks. Each row becomes a 'proof-backed claim' that sales can quote verbatim. Without it, reps improvise and lose deals.",
+      "example": "Stripe's Value Matrix: Problem ('Payments are broken for developers') → Solution ('7 lines of code') → Proof ('99.999% uptime, $640B+ processed'). This clarity let them compete against PayPal's massive sales team with a product-led motion.",
+      "tags": [
+        "gtm",
+        "messaging",
+        "value prop",
+        "proof",
+        "positioning"
+      ],
+      "sections": [
+        "Product",
+        "Storytelling"
+      ]
+    },
+    "growthMotion": {
+      "when": "You must decide (or hybridise) your primary GTM motion: product-led, sales-led, or marketing-led.",
+      "why": "Forcing the trade-offs per motion prevents a PLG product from hiring 20 SDRs too early — a startup saved 6 months by picking the right primary motion.",
+      "tags": [
+        "gtm",
+        "plg",
+        "slg",
+        "mlg",
+        "growth",
+        "motion",
+        "strategy"
+      ],
+      "sections": [
+        "Strategy",
+        "Product"
+      ]
+    },
+    "gtmMetrics": {
+      "when": "You're tracking too many metrics and can't tell what's actually moving revenue.",
+      "why": "Input → Velocity → Output narrows to the three KPIs that predict, not just report — a team replaced 30 dashboards with one weekly scoreboard.",
+      "tags": [
+        "gtm",
+        "metrics",
+        "kpi",
+        "funnel",
+        "scoreboard",
+        "diagnostics"
+      ],
+      "sections": [
+        "Product",
+        "Executive"
+      ]
+    },
+    "operatingRhythm": {
+      "when": "The GTM plan exists but nobody knows if it's working because there's no cadence.",
+      "why": "Weekly pulse + blocker log + kill/keep/modify criteria keep the plan alive — a launch that would have drifted was course-corrected in week 2.",
+      "tags": [
+        "gtm",
+        "cadence",
+        "ops",
+        "execution",
+        "weekly sync",
+        "tech stack"
+      ],
+      "sections": [
+        "Executive",
+        "Strategy"
+      ]
+    },
+    "messagingHierarchy": {
+      "when": "Your value prop is one long paragraph and nobody can repeat it.",
+      "why": "Promise → Proof → Differentiator gives every rep a one-liner, a proof point, and a 'why not them' — a sales team's close rate jumped when they stopped leading with features.",
+      "how": "The Messaging Hierarchy becomes the source of truth for sales decks, website copy, ad campaigns, and objection handling scripts. Every customer-facing team pulls from this single document.",
+      "example": "Slack's messaging hierarchy: Promise ('Where work happens') → Proof ('86% of users say it makes their work life simpler') → Differentiator ('Unlike email, Slack organizes communication by topic in channels'). This clarity let them grow from 0 to 12M daily active users with minimal sales team.",
+      "tags": [
+        "gtm",
+        "messaging",
+        "positioning",
+        "differentiation",
+        "sales",
+        "storytelling"
+      ],
+      "sections": [
+        "Storytelling",
+        "Product"
+      ]
+    },
+    "mckinseyGtm": {
+      "when": "You need a complete, end-to-end GTM strategy that covers market analysis through execution with McKinsey rigor.",
+      "why": "The McKinsey GTM Masterclass synthesizes 6 pillars, 7 growth directions, and a 7-step process into one cohesive strategy — preventing the common failure of having a great product but no structured path to market.",
+      "how": "Start with the 7 Growth Directions to decide WHERE to play, then use the 6 Pillars to build HOW to win, and finally sequence execution via the 7-Step Process. Cross-reference with GTM Engine for operational flow.",
+      "example": "McKinsey's own clients use this framework to launch in new markets — the 7-step process alone has been applied in 100+ enterprise launches, forcing teams to validate each step before proceeding.",
+      "tags": [
+        "gtm",
+        "mckinsey",
+        "strategy",
+        "growth",
+        "pillars",
+        "launch",
+        "go-to-market"
+      ],
+      "sections": [
+        "GTM",
+        "Strategy"
+      ],
+      "compare": "vs GTM Engine: McKinsey's 6-pillar + 7-step structured process vs the gear metaphor"
+    },
+    "pricingStrategy": {
+      "when": "Pricing is set by gut feel or cost-plus and you're leaving money on the table — or scaring buyers away.",
+      "why": "The Pricing Strategy framework maps cost-plus, competitive, and value-based models with a decision matrix for real scenarios — a SaaS company switched to value-based pricing and lifted ARPU 34% without losing deals.",
+      "how": "Pricing output feeds into Revenue Streams in the GTM Engine, objection handling in Sales Enablement, and competitive positioning in Competitive Landscape. Price is the most underlevered GTM variable.",
+      "example": "Stripe's pricing (2.9% + 30¢) was a deliberate competitive + value-based hybrid — simple enough to remove friction, cheap enough to undercut legacy processors, and value-anchored to the revenue it enables.",
+      "tags": [
+        "gtm",
+        "pricing",
+        "revenue",
+        "value-based",
+        "competitive",
+        "tiers"
+      ],
+      "sections": [
+        "GTM"
+      ],
+      "compare": "vs GTM Engine: dedicated pricing DEEP-DIVE vs one gear in the engine"
+    },
+    "competitiveLandscape": {
+      "when": "You're losing deals to competitors you can't articulate a difference against — or you don't know who your real competition is.",
+      "why": "The Competitive Landscape framework combines a comparison grid, differentiation levers, and SWOT cross-analysis to reveal exactly where you win, lose, and where to double down.",
+      "how": "Feed differentiation insights into Messaging Hierarchy (differentiators), Sales Enablement (battle cards), and Pricing Strategy (positioning). Review quarterly as competitive dynamics shift.",
+      "example": "Figma's competitive analysis showed Sketch dominated design but had zero real-time collaboration. Their differentiation lever ('browser-based multiplayer') became their entire GTM message — not features, but a new category.",
+      "tags": [
+        "gtm",
+        "competitive",
+        "differentiation",
+        "positioning",
+        "battle card",
+        "swot"
+      ],
+      "sections": [
+        "GTM"
+      ],
+      "compare": "vs SWOT: competitive-focused with differentiation levers vs four-quadrant snapshot"
+    },
+    "personaDeepDive": {
+      "when": "Your 'persona' is a one-paragraph user profile that nobody actually uses to make decisions.",
+      "why": "The Persona Deep Dive creates detailed buyer archetypes with buying journey stages and tailored messaging per role — turning vague 'who we sell to' into actionable sales intelligence.",
+      "how": "Persona output feeds into ICP (who), Messaging Hierarchy (what to say), Sales Enablement (how to pitch per role), and Channel Strategy (where each persona lives). Without this, messaging is generic.",
+      "example": "HubSpot's 3-persona model (Marketing Mary, Sales Sam, Owner Oscar) let them build separate product experiences, pricing tiers, and marketing campaigns per persona — each feeling like it was built specifically for them.",
+      "tags": [
+        "gtm",
+        "persona",
+        "buyer",
+        "journey",
+        "messaging",
+        "roles",
+        "decision-maker",
+        "champion",
+        "end-user"
+      ],
+      "sections": [
+        "GTM"
+      ],
+      "compare": "vs Persona: multi-role BUYER archetypes with journey + messaging vs single user profile"
+    },
+    "salesEnablement": {
+      "when": "Sales has a pitch deck from 6 months ago and makes up objection responses on the fly.",
+      "why": "The Sales Enablement Playbook gives battle cards, stage-by-stage guidance, and objection replies that actually map to buyer psychology — a team lifted win rate 18% by arming reps with the right message at the right stage.",
+      "how": "Feed battle cards into CRM notes, stage guidance into sales ops playbooks, and enablement assets into onboarding. Review and update quarterly as objections evolve.",
+      "example": "Salesforce's battle cards are legendary — reps carry 1-page competitive sheets for every major rival with specific feature comparisons, land-mines to plant, and proof points to deploy at each stage.",
+      "tags": [
+        "gtm",
+        "sales",
+        "enablement",
+        "battle card",
+        "objection",
+        "playbook",
+        "revenue"
+      ],
+      "sections": [
+        "GTM"
+      ],
+      "compare": "vs Messaging Hierarchy: sales-specific BATTLE CARDS + stage guidance vs brand-level message"
+    },
+    "feedbackLoops": {
+      "when": "Your GTM strategy is running but there's no structured way to capture what's working and what isn't.",
+      "why": "The GTM Feedback Loops framework maps feedback channels and review cadences to create a living system that captures market signals and feeds them back into strategy — without it, your GTM plan is a snapshot, not a system.",
+      "how": "Feed insights back into GTM Engine (gear alignment), ICP (persona refinement), and Messaging Hierarchy (message optimization). Close the loop quarterly.",
+      "example": "Notion's feedback loop: template gallery analytics + community forums + NPS surveys → weekly GTM reviews → monthly strategy adjustments. This loop let them ship 100+ template packs in 6 months based on what users actually searched for.",
+      "tags": [
+        "gtm",
+        "feedback",
+        "cadence",
+        "metrics",
+        "review",
+        "iteration",
+        "signals"
+      ],
+      "sections": [
+        "GTM"
+      ],
+      "compare": "vs GTM Metrics: structured REVIEW cadences + feedback channels vs raw KPI tracking"
+    },
+    "first90Days": {
+      "when": "You have just been promoted, reassigned, or are onboarding into a new leadership role and need a structured plan for your first 90 days.",
+      "why": "The First 90 Days arc turns leadership transition from a chaotic free-for-all into a sequenced playbook — diagnosis before action, early wins before structural change, coalitions before scaling. Elena's realignment story shows how each chapter builds on the last.",
+      "tags": [
+        "executive",
+        "leadership",
+        "onboarding",
+        "transition",
+        "first-90-days",
+        "change-management",
+        "new-role"
+      ],
+      "sections": [
+        "Strategy"
+      ]
+    },
+    "ccc": {
+      "when": "You don't know how fast your business turns investment into cash — or whether it's accelerating or decelerating.",
+      "why": "The Cash Conversion Cycle (Inventory Days + Receivable Days - Payable Days) is your business's vital sign. Amazon runs negative CCC (gets paid before it pays suppliers). A startup with a 90-day CCC just learned it needs 3 months of working capital per dollar of revenue — knowledge that changed their entire fundraising math.",
+      "tags": [
+        "finance",
+        "cash flow",
+        "working capital",
+        "unit economics",
+        "ccc",
+        "death metric"
+      ],
+      "sections": [
+        "Strategy",
+        "Startup"
+      ]
+    },
+    "radicalCandor": {
+      "when": "Feedback is either brutal and relationships suffer, or nice and problems fester. You need a way to care personally while challenging directly.",
+      "why": "Kim Scott's 2x2 (Care Personally x Challenge Directly) maps four failure modes: Ruinous Empathy, Obnoxious Aggression, Manipulative Insincerity, and Radical Candor. A startup CEO avoided 'the polite death' by implementing weekly 1:1s structured around the Ruin-Care-Challenge framework — issues surfaced 3 months earlier than they would have.",
+      "tags": [
+        "leadership",
+        "feedback",
+        "culture",
+        "1on1",
+        "team",
+        "radical candor"
+      ],
+      "sections": [
+        "Executive",
+        "Strategy"
+      ]
+    },
+    "toc5": {
+      "when": "A system or process is underperforming and you suspect one bottleneck is limiting the whole.",
+      "why": "Theory of Constraints five steps (Identify -> Exploit -> Subordinate -> Elevate -> Repeat) focus ALL attention on the single binding constraint. A manufacturer doubled throughput by fixing ONE machine.",
+      "tags": [
+        "theory of constraints",
+        "bottleneck",
+        "throughput",
+        "operations",
+        "goldratt"
+      ],
+      "sections": [
+        "Strategy",
+        "GTM"
+      ]
+    },
+    "fourSteps": {
+      "when": "You built a product but no one's buying, you're burning cash without scaling, or you're not sure if you're in a new or existing market.",
+      "why": "Steve Blank's Customer Development methodology is the parallel process to Product Development that successful startups actually follow. 9 of 10 new product introductions fail — not because the product doesn't work, but because the company never found customers. The Four Steps (Discovery → Validation → Creation → Building) with four Market Types (Existing/New/Resegmented-Low-Cost/Resegmented-Niche) change everything from hiring to launch strategy to timeline.",
+      "how": "Start at the 'Which Step Am I In?' decision tree. Each step has detailed phase breakdowns. The Market Type Determination Worksheet tells you which of the 4 Market Types you're in — this changes your launch type, spending, and timeline. Use the Earlyvangelist Pain Hierarchy to identify your first paying customers. The Sales Roadmap Template builds the playbook BEFORE you hire salespeople.",
+      "example": "Webvan raised $800M, built automated warehouses, IPO'd at $8.5B market cap — then went bankrupt in 24 months. They skipped Customer Discovery (never validated demand), skipped Customer Validation (committed $1B to infrastructure before feedback), and used Existing Market tactics in a New Market. Tesco, same era, same space: used existing stores, iterated with customers, found a profitable model. By 2002: 85,000 orders/week, $559M in sales. Fraction of Webvan's investment.",
+      "tags": [
+        "customer development",
+        "startup",
+        "steve blank",
+        "discovery",
+        "validation",
+        "market type",
+        "earlyvangelist",
+        "premature scaling",
+        "pivot",
+        "lean",
+        "b2b",
+        "enterprise",
+        "product market fit",
+        "sales roadmap"
+      ],
+      "sections": [
+        "Startup",
+        "Strategy"
+      ],
+      "compare": "vs Lean Startup: strategic 4-step PROCESS + Market Type vs tactical Build-Measure-Learn · vs Crossing the Chasm: finding customers BEFORE crossing vs crossing methodology",
+      "skill": [
+        {
+          "title": "Your Step Diagnostic",
+          "body": "Score each YES: (1) Do you know early customers by name? (2) Had 10+ in-depth conversations? (3) Can retell the problem in their words? (4) Seen repeatable purchase behavior? (5) Working MVP in customers' hands? (6) Revenue growing from same customer type? YOUR SCORE: ___/6. 0-2 = Discovery. 3-4 = Validation. 5 = Creation. 6 = Building. Which step are YOU in?"
+        },
+        {
+          "title": "Your Market Type",
+          "body": "Fill in: Are customers actively looking for YOUR solution? ___ Do they know the problem? ___ Are competitors already selling? ___ YOUR market type: Existing / New / Resegmented Low-Cost / Resegmented Niche. Why: ___. This determines your entire strategy — are you asking customers to change behavior, or just switch?"
+        },
+        {
+          "title": "Your Earlyvangelist Score",
+          "body": "Score your best prospect 1-5: (1) Problem NOW and knows it? (2) Has a frustrated workaround? (3) Has budget set aside? (4) Tried to buy in last 6 months? (5) Can decide without committees? YOUR PROSPECT SCORE: ___. 15+ = earlyvangelist (sell to them). Below 10 = too early (wait or educate)."
+        },
+        {
+          "title": "Your Positioning Statement",
+          "body": "Fill in based on market type: EXISTING: 'For [customer] who [problem], [you] is a [category] that [benefit]. Unlike [competitor], you [differentiator].' NEW: 'For [early adopter] who [unknown need], [you] creates [new way]. Unlike [old way], you [improvement].' YOUR statement: ___."
+        },
+        {
+          "title": "Your Backwards Math",
+          "body": "Revenue goal: $___ ÷ ACV: $___ = ___ customers needed ÷ close rate: ___% = ___ leads needed ÷ ___ months = ___ leads/month. YOUR monthly lead target: ___. How many calls/emails to get that? ___. Is that realistic with your current team? ___"
+        },
+        {
+          "title": "Your Premature Scaling Score",
+          "body": "Check all that apply: (1) Hired VP Sales before finding repeatable process? (2) Spent $100K+ on marketing before P/M fit? (3) Raised on features, not validation? (4) Expanded before proving one market? (5) Added features vs deepening core? (6) Team grew faster than revenue? (7) Burn rate 3× customer acquisition? YOUR SCORE: ___/7. 0-1 = healthy. 2-3 = warning. 4+ = premature."
+        },
+        {
+          "title": "Your Validation Pass/Fail",
+          "body": "PASS criteria: 3+ paying customers in target segment? ___ Revenue repeatable (same type, same price, similar process)? ___ Customers describe the problem as you do? ___ FAIL signals: Need discounts? ___ Customers want custom features? ___ Sales cycle > 90 days and growing? ___ YOUR verdict: PASS / FAIL / NOT YET."
+        }
+      ],
+      "examples": [
+        {
+          "title": "Discovery → Validation Pattern",
+          "body": "Talked to 50 customers → found they spend $2K-5K on the problem → built simple MVP → 5 customers paid. Your turn: what did YOUR customer interviews reveal about willingness to pay?"
+        },
+        {
+          "title": "Positioning Pattern",
+          "body": "EXISTING: 'For [customer] who [problem], [you] is a [category] that [benefit].' NEW: 'For [early adopter] who [need], [you] creates [new way].' YOUR turn: fill in YOUR positioning statement."
+        },
+        {
+          "title": "Backwards Math Pattern",
+          "body": "$1M goal ÷ $10K ACV = 100 customers ÷ 20% close = 500 leads ÷ 12 months = 42/month. YOUR turn: run the math for YOUR revenue goal."
+        }
+      ],
+      "casestudy": [
+        {
+          "title": "Webvan — Skipped Discovery + Validation",
+          "body": "Committed $1B to infrastructure before feedback. Your question: what infrastructure are YOU building before validating demand?",
+          "result": "failure"
+        },
+        {
+          "title": "Tesco — Validated before building",
+          "body": "Used existing stores, iterated with customers, started narrow. 85K orders/week by 2002. Your question: what's YOUR 'narrow geography' to start with?",
+          "result": "success"
+        },
+        {
+          "title": "FastOffice — Scaling before validation",
+          "body": "Raised Series A, expanded to 5 cities, hired 20-person sales team — before finding repeatable sales in ONE market. Your question: have YOU proven the model in ONE market first?",
+          "result": "failure"
+        }
+      ],
+      "integration": [
+        {
+          "title": "Four Steps × $100M Offers",
+          "body": "Validate market type BEFORE creating your offer. Four Steps tells you WHEN and FOR WHOM. $100M Offers tells you HOW to maximize value."
+        },
+        {
+          "title": "Four Steps × Lean Startup",
+          "body": "Four Steps = strategic GPS (which step?). Lean Startup = turn-by-turn (what to build next?). Use both."
+        },
+        {
+          "title": "Four Steps × Mom Test",
+          "body": "Four Steps says 'talk to customers in Discovery.' Mom Test tells you HOW without getting lied to. Use both: Blank for structure, Mom Test for conversation quality."
+        }
+      ]
+    },
+    "leanStartup": {
+      "when": "You're deciding what to build first, measuring startup progress, evaluating whether to change direction, or testing a business idea cheaply.",
+      "why": "Build-Measure-Learn is the operating system for startups — it transforms uncertainty into validated learning through rapid experimentation. Most startups fail not because they couldn't build, but because they built the wrong thing.",
+      "how": "Plan the loop backward: What do we want to learn? → How will we measure it? → What's the minimum we build? Execute forward. Track loop time (3-7 weeks typical, 3-7 days world-class). Use innovation accounting: establish baseline, tune the engine, then pivot or persevere.",
+      "example": "Dropbox's Drew Houston created a 3-minute screencast showing how file sync would work. Posted to Hacker News → 5,000 to 75,000 beta signups overnight. No engineering investment for the MVP. Referral program then yielded 60% permanent signup increase. Validated both demand and viral growth engine before building the complete product.",
+      "tags": [
+        "lean",
+        "startup",
+        "mvp",
+        "build-measure-learn",
+        "validated learning",
+        "pivot",
+        "persevere",
+        "vanity metrics",
+        "innovation accounting",
+        "cohort analysis",
+        "bml",
+        "experiment",
+        "hypothesis",
+        "five whys",
+        "small batches",
+        "engines of growth",
+        "eric ries"
+      ],
+      "sections": [
+        "Startup"
+      ],
+      "compare": "vs Four Steps: tactical BML loop vs strategic 4-step process · vs Design Sprint: continuous iteration vs time-boxed prototype · vs JTBD: hypothesis testing vs job discovery",
+      "skill": [
+        {
+          "title": "Your Experiment Card",
+          "body": "Fill in: HYPOTHESIS — We believe [specific customer] will [specific action] because [reason]. METRIC — Primary metric: ___. Current baseline: ___. Success threshold: ___. BUILD — What we'll build: ___. Maximum time: ___. LEARN — Fill after: Result: ___. Decision: Persevere / Pivot / Run another. Your turn: write ONE experiment card now."
+        },
+        {
+          "title": "Your Riskiest Assumption",
+          "body": "List your top 3 assumptions. For each, score: IMPACT (1-5: how fatal if wrong?) × UNCERTAINTY (1-5: how little evidence?). Priority = Impact × Uncertainty. The highest score = test FIRST. Your #1 riskiest assumption: ___. How you'll test it: ___."
+        },
+        {
+          "title": "Your MVP Type",
+          "body": "Decision tree for YOUR product: Testing DEMAND? → Smoke test. Testing if SOLUTION is valuable? → Concierge (manual). Testing if AUTOMATION needed? → Wizard of Oz. Testing which FEATURE matters? → Single feature. Testing WORKFLOW? → Piecemeal. Your MVP for the riskiest assumption: ___. It should be EMBARRASSINGLY small."
+        },
+        {
+          "title": "Your Actionable Metrics",
+          "body": "List your top 5 metrics. For each, ask: (1) If this drops 20%, do I know what to do? (2) Can everyone explain it in 60 seconds? (3) Can I verify the data? If any answer is NO, it's vanity. Replace it. Your actionable metrics: ___. Your vanity metrics to stop tracking: ___."
+        },
+        {
+          "title": "Your Pivot-or-Persevere Criteria",
+          "body": "BEFORE building, write: PERSEVERE if [specific metric] improves by [amount] within [timeframe]. PIVOT if [specific metric] stays flat after [X experiments]. Your persevere criteria: ___. Your pivot criteria: ___. Set these NOW, not when emotions are high."
+        },
+        {
+          "title": "Your Loop Time Audit",
+          "body": "Current loop time: Build ___ weeks, Measure ___ weeks, Learn ___ days. Total: ___ weeks. Target: under 2 weeks. How to compress: (1) Can we test with LESS? (2) Pre-instrumenting analytics? (3) Using existing platforms? (4) Decision meeting scheduled in advance? Your biggest time sink: ___. Fix: ___."
+        },
+        {
+          "title": "Your Engine of Growth",
+          "body": "Pick ONE: STICKY — high switching costs, repeat use? Track: churn ___, DAU/MAU ___. VIRAL — product involves others, share-worthy? Track: K-factor ___, cycle time ___. PAID — clear ROI, high LTV? Track: CAC ___, LTV/CAC ___. Your engine: ___. Why this one: ___."
+        }
+      ],
+      "examples": [
+        {
+          "title": "Experiment Card Pattern",
+          "body": "Hypothesis: 'Small teams will pay $49/mo for AI captions.' Build: landing page (3 days). Measure: 500 visitors, track signups (7 days). Learn: 8% capture → build concierge for top 10. Your turn: fill in your own experiment card."
+        },
+        {
+          "title": "Vanity vs Actionable Pattern",
+          "body": "Vanity: 'We have 100K users!' Actionable: 'Channel X users retain 2x better than Y — double down on X.' Your turn: which of YOUR metrics is vanity? Which is actionable?"
+        },
+        {
+          "title": "Loop Time Pattern",
+          "body": "Typical: 3-7 weeks per loop. World-class: 3-7 days. Your current loop time: ___ weeks. Biggest bottleneck: ___. One thing to compress this week: ___."
+        }
+      ],
+      "casestudy": [
+        {
+          "title": "IMVU — 6 months wasted, then lean",
+          "body": "Built AIM interoperability for 6 months → zero usage. Pivoted to 'meet new people' → immediate traction. Your question: what are YOU building without testing first?",
+          "result": "success"
+        },
+        {
+          "title": "Webvan — $830M burned, no validation",
+          "body": "Full infrastructure before demand proof. Your question: what's YOUR version of 'building the warehouse before the customers'?",
+          "result": "failure"
+        },
+        {
+          "title": "Zappos — Shoes from local stores",
+          "body": "Manual purchase and ship on every order. Zero tech investment. Definitive demand proof. Your question: what's the Zappos version of YOUR product?",
+          "result": "success"
+        }
+      ],
+      "integration": [
+        {
+          "title": "Lean Startup × Four Steps",
+          "body": "Four Steps = strategic GPS (which step am I in?). Lean Startup = turn-by-turn (what should I build next?). Use both."
+        },
+        {
+          "title": "Lean Startup × JTBD",
+          "body": "JTBD provides the INPUT (what job to test). Lean Startup provides the PROCESS (how to test it). JTBD → hypothesis. Lean → experiment."
+        },
+        {
+          "title": "Lean Startup × Design Sprint",
+          "body": "Sprint = one compressed loop (5 days). Lean = all the loops (ongoing). Use Sprint for a specific idea. Use Lean for continuous cadence."
+        }
+      ]
+    },
+    "influenceCialdini": {
+      "when": "You need to persuade stakeholders, win buy-in, or design a marketing strategy — but you're relying on intuition instead of proven psychological principles.",
+      "why": "Cialdini's 7 principles (reciprocity, commitment, social proof, authority, liking, scarcity, unity) are the evidence-based levers of persuasion. Each has 40+ years of experimental research behind it. A SaaS startup used this framework to redesign their pricing page and increased conversion 34% by adding social proof and scarcity cues.",
+      "how": "Use the Decision Tree to pick the right principle for your situation. Each principle section has: Mechanism (how it works), 3 Key Experiments (replicated findings), Universal Patterns (when it works), and Defenses (when it fails or backfires). The Defense Audit section lets you stress-test your persuasion strategy against each principle's failure modes.",
+      "example": "A nonprofit fundraising campaign applied the reciprocity principle: instead of asking for donations first, they sent a personalized hand-written thank-you card (unexpected gift). Donations increased 52% vs the control group. Key: the gift was unexpected, personalized, and not contingent on a donation — making it genuine reciprocity.",
+      "tags": [
+        "persuasion",
+        "influence",
+        "cialdini",
+        "reciprocity",
+        "social proof",
+        "scarcity",
+        "authority",
+        "liking",
+        "commitment",
+        "unity",
+        "marketing",
+        "sales",
+        "negotiation",
+        "behavioral",
+        "psychology",
+        "pre-suasion"
+      ],
+      "sections": [
+        "Storytelling"
+      ],
+      "compare": "vs Made to Stick: make ideas STICKY vs make people SAY YES · vs Storybrand: structure the STORY vs structure the ASK",
+      "skill": [
+        {
+          "title": "Your Persuasion Audit",
+          "body": "For YOUR current campaign/page/email, check each principle: RECIPROCITY — Are you giving something genuine first? ___ AUTHORITY — Are your credentials real and visible? ___ SOCIAL PROOF — Is the proof authentic and current? ___ SCARCITY — Is the scarcity genuine (not manufactured)? ___ COMMITMENT — Are you getting a small yes first? ___ LIKING — Are you being authentic? ___ UNITY — Are you creating real belonging? ___ Which principle are YOU strongest on? Which are you missing?"
+        },
+        {
+          "title": "Your Principle Selection",
+          "body": "For YOUR specific situation, pick 2-3 principles: (1) Are you giving something first? → Reciprocity. (2) Need public buy-in? → Social Proof. (3) Time-sensitive ask? → Scarcity. (4) Need trust? → Authority. (5) Partially committed audience? → Commitment. (6) Shared group identity? → Unity. (7) Need them to like you? → Liking. YOUR top 2-3 principles: ___. Why these: ___."
+        },
+        {
+          "title": "Your Defense Check",
+          "body": "Before launching, stress-test: Is YOUR social proof real or cherry-picked? ___ Is YOUR scarcity genuine or manufactured? ___ Would an expert disagree with YOUR authority claims? ___ Are you exploiting sunk cost with commitment? ___ If any answer is risky, fix it BEFORE launching. Backlash destroys more value than the tactic creates."
+        },
+        {
+          "title": "Your Touchpoint Stack",
+          "body": "For YOUR next customer touchpoint (email, page, ad), layer max 3 principles: Principle 1: ___ (how you'll apply it: ___). Principle 2: ___ (how: ___). Principle 3: ___ (how: ___). Rule: more than 3 = manipulation. Keep it ethical."
+        }
+      ],
+      "examples": [
+        {
+          "title": "Social Proof + Scarcity Pattern",
+          "body": "Pattern: '12,000+ teams trust us' (social proof) + 'Only 50 beta spots' (scarcity) → 34% conversion lift. Your turn: what's YOUR social proof? What's YOUR genuine scarcity?"
+        },
+        {
+          "title": "Reciprocity → Commitment Pattern",
+          "body": "Pattern: Give free value (report) → prove others used it (social proof) → ask for small commitment. Your turn: what can YOU give first? What small ask follows?"
+        },
+        {
+          "title": "Liking → Authority → Social Proof Pattern",
+          "body": "Pattern: Personal story (liking) → credibility (authority) → '3 companies here use this' (social proof). Your turn: what's YOUR opening story? Your credibility? Your proof?"
+        }
+      ],
+      "casestudy": [
+        {
+          "title": "Booking.com — 7 principles simultaneously",
+          "body": "Social proof: '37 people looking.' Scarcity: 'Only 2 rooms left.' Authority: '150M+ guests.' Converts 3-5x higher than single-principle competitors. Your question: which principles are YOU using together?",
+          "result": "success"
+        }
+      ],
+      "integration": [
+        {
+          "title": "Influence × Made to Stick",
+          "body": "Made to Stick = make ideas MEMORABLE. Influence = make people ACT. Design the message first, then layer persuasion architecture."
+        },
+        {
+          "title": "Influence × Storybrand",
+          "body": "Storybrand = structure the STORY (customer is hero). Influence = structure the ASK (psychological levers). Write the story, then add principles."
+        }
+      ]
+    },
+    "$100mLeads": {
+      "when": "You need a systematic lead generation engine, not random marketing tactics.",
+      "why": "The Core Four framework (warm outreach, content, cold outreach, paid ads) plus Rule of 100 and More-Better-New gives you a repeatable playbook — Hormozi's system turned $0 into $100M+ across multiple businesses.",
+      "how": "The $100M Leads output becomes your acquisition playbook. The Core Four matrix tells you which channel to start with. The Rule of 100 gives you daily minimums. More-Better-New tells you how to scale. Lead Getters (referrals, affiliates) let others generate leads for you.",
+      "example": "Gym Launch (Hormozi's company): Started with warm outreach to gym owners. Mastered cold outreach (100 calls/day). Added paid ads once unit economics worked. Layered in Lead Getters (referral program + agency model). Result: $100M+ in revenue from lead generation systems, not random tactics.",
+      "tags": [
+        "gtm",
+        "leads",
+        "acquisition",
+        "advertising",
+        "marketing",
+        "hormozi",
+        "core four",
+        "lead magnets",
+        "cold outreach",
+        "warm outreach",
+        "paid ads",
+        "content",
+        "referrals",
+        "scaling",
+        "rule of 100",
+        "ltgp cac"
+      ],
+      "sections": [
+        "GTM"
+      ],
+      "compare": "vs Traction: Core Four + Rule of 100 + More-Better-New vs 19 channels · vs GTM Engine: acquisition-focused playbook vs full revenue engine",
+      "skill": [
+        {
+          "title": "Your Starting Channel",
+          "body": "Answer: Do you have money? ___ Do you have time? ___ Money + Time → Paid Ads. Money + No Time → Paid Ads. No Money + Time → Warm Outreach. No Money + No Time → Content. YOUR starting channel: ___. Why: ___. Rule: master ONE before adding a second."
+        },
+        {
+          "title": "Your Rule of 100",
+          "body": "Pick YOUR channel. Commit to 100 actions/day for 30 days. YOUR channel: ___. 100 actions/day means: ___ (100 calls? 100 DMs? 100 posts? $100/day ads?). 30-day target: 3,000 touches. At 1% conversion = 30 leads. Enough to learn what works. YOUR daily commitment: ___."
+        },
+        {
+          "title": "Your More-Better-New Audit",
+          "body": "CURRENT STATE: What's already working? ___. How can you do MORE of it (100→200→500/day)? ___. How can you do BETTER (better script, offer, landing page)? ___. When should you add NEW? ___ (only after maxing More + Better). Most people jump to NEW. Don't."
+        },
+        {
+          "title": "Your LTGP:CAC Math",
+          "body": "LTGP = (Avg Revenue × Gross Margin %) × Avg Lifespan in Months. YOUR LTGP: $___. YOUR CAC: $___. Ratio: ___:1. Target: 3:1+. Below 3:1 → fix unit economics before scaling. Above 5:1 → you're underinvesting in growth."
+        },
+        {
+          "title": "Your Lead Magnet",
+          "body": "Formula: [Number] + [Adjective] + [Promise] + [Format]. YOUR lead magnet: 'The ___ [adjective] ___ for ___ [promise]'. Examples: 'The 7-Step Framework for Doubling Close Rate'. Bad: 'Our Whitepaper'. YOUR turn: write yours."
+        },
+        {
+          "title": "Your $0→$100M Phase",
+          "body": "Which phase are YOU in? Phase 1 ($0-$100K): Warm outreach only. Phase 2 ($100K-$1M): Add cold outreach (100/day). Phase 3 ($1M-$10M): Add content. Phase 4 ($10M-$100M): Add paid ads + Lead Getters. YOUR phase: ___. Next channel to add: ___."
+        }
+      ],
+      "examples": [
+        {
+          "title": "Warm Outreach Pattern",
+          "body": "ACA: Acknowledge → Compliment → Ask. 'Hey [Name], saw your post about [topic] — really resonated. Your approach to [thing] is what most folks miss. Quick question: are you using anything for [problem]?' Expected reply: 15-25%. Your turn: write YOUR warm outreach message."
+        },
+        {
+          "title": "Cold Email Pattern",
+          "body": "PAS: Problem → Agitate → Solution. 'Most [industry] teams spend 10+ hours/week on [task]. That's [X hours] of busywork. We built [Product] to automate this — 80% time savings in week 1. Want to see how?' Expected: 3-5% reply rate. Your turn: write YOUR cold email."
+        },
+        {
+          "title": "Content Cadence Pattern",
+          "body": "Give, Give, Give, Ask. Post 1: useful framework (no ask). Post 2: case study (no ask). Post 3: tool/resource (no ask). Post 4: personal lesson THEN ask for lead magnet. Your turn: plan YOUR next 4 posts."
+        }
+      ],
+      "casestudy": [
+        {
+          "title": "Hormozi — $0 to $100M in 4 years",
+          "body": "Rule of 100: 100 content pieces/month. No paid ads for 2 years. GIVE→GIVE→GIVE→ASK. Your question: are YOU doing 100 actions/day in YOUR channel?",
+          "result": "success"
+        }
+      ],
+      "integration": [
+        {
+          "title": "$100M Leads × GTM Engine",
+          "body": "GTM Engine = full revenue system. $100M Leads = acquisition piece only. Use GTM Engine to find WHERE you're broken, $100M Leads to fix lead gen."
+        },
+        {
+          "title": "$100M Leads × Traction",
+          "body": "Traction = 19 channels, test them. $100M Leads = 4 channels (Core Four), scale them. Use Traction for discovery, $100M Leads for scaling the winner."
+        }
+      ]
+    }
+  },
+  "groupMeta": {
+    "Executive": {
+      "purpose": "a leadership tool for diagnosing problems, making decisions, and driving execution",
+      "bg": {
+        "f": "#FEF2F2",
+        "g": "#FFFFFF",
+        "s": "#FCA5A5"
+      },
+      "useCase": [
+        "diagnose",
+        "decide"
+      ],
+      "effort": "med"
+    },
+    "McKinsey": {
+      "purpose": "a structured problem-solving and communication tool from McKinsey",
+      "bg": {
+        "f": "#EEF2FF",
+        "g": "#FFFFFF",
+        "s": "#C7D2FE"
+      },
+      "useCase": [
+        "diagnose",
+        "communicate"
+      ],
+      "effort": "med"
+    },
+    "Think": {
+      "purpose": "a thinking aid for breaking down problems and generating options",
+      "bg": {
+        "f": "#F5F3FF",
+        "g": "#FFFFFF",
+        "s": "#DDD6FE"
+      },
+      "useCase": [
+        "ideate",
+        "diagnose"
+      ],
+      "effort": "low"
+    },
+    "Understand Customer": {
+      "purpose": "a customer-empathy tool for understanding needs, jobs, and journeys",
+      "bg": {
+        "f": "#ECFEFF",
+        "g": "#FFFFFF",
+        "s": "#A5F3FC"
+      },
+      "useCase": [
+        "empathize"
+      ],
+      "effort": "med"
+    },
+    "Strategy": {
+      "purpose": "a strategy tool for positioning, choices, and competitive advantage",
+      "bg": {
+        "f": "#EFF6FF",
+        "g": "#FFFFFF",
+        "s": "#BFDBFE"
+      },
+      "useCase": [
+        "decide"
+      ],
+      "effort": "med"
+    },
+    "Product": {
+      "purpose": "a product tool for discovery, prioritization, and roadmap decisions",
+      "bg": {
+        "f": "#ECFDF5",
+        "g": "#FFFFFF",
+        "s": "#A7F3D0"
+      },
+      "useCase": [
+        "validate",
+        "decide"
+      ],
+      "effort": "med"
+    },
+    "Software Architecture": {
+      "purpose": "an architecture tool for structuring systems and weighing trade-offs",
+      "bg": {
+        "f": "#F1F5F9",
+        "g": "#FFFFFF",
+        "s": "#CBD5E1"
+      },
+      "useCase": [
+        "design"
+      ],
+      "effort": "high"
+    },
+    "Startup": {
+      "purpose": "a startup tool for validating, building, and scaling new ventures",
+      "bg": {
+        "f": "#FFF7ED",
+        "g": "#FFFFFF",
+        "s": "#FED7AA"
+      },
+      "useCase": [
+        "validate"
+      ],
+      "effort": "med"
+    },
+    "Stocks & Options": {
+      "purpose": "a trading tool for framing positions and managing risk",
+      "bg": {
+        "f": "#F0FDF4",
+        "g": "#FFFFFF",
+        "s": "#BBF7D0"
+      },
+      "useCase": [
+        "decide"
+      ],
+      "effort": "low"
+    },
+    "Modern": {
+      "purpose": "a modern, cross-disciplinary thinking framework",
+      "bg": {
+        "f": "#FDF2F8",
+        "g": "#FFFFFF",
+        "s": "#FBCFE8"
+      },
+      "useCase": [
+        "ideate"
+      ],
+      "effort": "low"
+    },
+    "Storytelling": {
+      "purpose": "a narrative tool for structuring clear, compelling stories",
+      "bg": {
+        "f": "#FFFBEB",
+        "g": "#FFFFFF",
+        "s": "#FDE68A"
+      },
+      "useCase": [
+        "communicate"
+      ],
+      "effort": "low"
+    },
+    "Design Patterns": {
+      "purpose": "a software design tool for reusable, battle-tested solutions",
+      "bg": {
+        "f": "#F3E8FF",
+        "g": "#FFFFFF",
+        "s": "#E9D5FF"
+      },
+      "useCase": [
+        "design"
+      ],
+      "effort": "med"
+    },
+    "AI / System Design": {
+      "purpose": "a system-design tool for scalable, reliable AI and software systems",
+      "bg": {
+        "f": "#EEF2FF",
+        "g": "#FFFFFF",
+        "s": "#C7D2FE"
+      },
+      "useCase": [
+        "design"
+      ],
+      "effort": "high"
+    },
+    "Agentic Design Patterns": {
+      "purpose": "a tool for designing agentic AI systems and workflows",
+      "bg": {
+        "f": "#F5F3FF",
+        "g": "#FFFFFF",
+        "s": "#DDD6FE"
+      },
+      "useCase": [
+        "design"
+      ],
+      "effort": "high"
+    },
+    "RAG Patterns": {
+      "purpose": "a tool for designing retrieval-augmented generation systems",
+      "bg": {
+        "f": "#ECFEFF",
+        "g": "#FFFFFF",
+        "s": "#A5F3FC"
+      },
+      "useCase": [
+        "design"
+      ],
+      "effort": "high"
+    },
+    "Enterprise & Org Design": {
+      "purpose": "an organization-design tool for structure, processes, and performance",
+      "bg": {
+        "f": "#F3EDF7",
+        "g": "#FFFFFF",
+        "s": "#D6C8EE"
+      },
+      "useCase": [
+        "design"
+      ],
+      "effort": "high"
+    },
+    "Job Search": {
+      "purpose": "a career tool for positioning yourself and landing the right role",
+      "bg": {
+        "f": "#F0FDFA",
+        "g": "#FFFFFF",
+        "s": "#99F6E4"
+      },
+      "useCase": [
+        "empathize",
+        "communicate"
+      ],
+      "effort": "med"
+    },
+    "GTM": {
+      "purpose": "a go-to-market tool for launching, scaling, and optimising revenue motions",
+      "bg": {
+        "f": "#FEF3C7",
+        "g": "#FFFFFF",
+        "s": "#FCD34D"
+      },
+      "useCase": [
+        "diagnose"
+      ],
+      "effort": "med"
+    },
+    "Financial": {
+      "purpose": "a financial tool for analyzing cash flow, unit economics, and investment returns",
+      "bg": {
+        "f": "#EFF6FF",
+        "g": "#FFFFFF",
+        "s": "#93C5FD"
+      },
+      "useCase": [
+        "decide",
+        "diagnose"
+      ],
+      "effort": "low"
+    },
+    "Leadership": {
+      "purpose": "a leadership tool for building teams, giving feedback, and driving culture",
+      "bg": {
+        "f": "#FDF2F8",
+        "g": "#FFFFFF",
+        "s": "#F9A8D4"
+      },
+      "useCase": [
+        "decide",
+        "communicate"
+      ],
+      "effort": "med"
+    }
+  },
+  "frameworkMeta": {
+    "rag": {
+      "when": "You need a baseline retrieval-augmented generation system before choosing specialized variants.",
+      "why": "Vanilla RAG (retrieve chunks, inject into prompt, generate) is the foundation — understand it before adding CRAG, GraphRAG, Hybrid, or Multimodal layers.",
+      "tags": [
+        "ai",
+        "rag",
+        "baseline",
+        "retrieval",
+        "generation"
+      ],
+      "sections": [
+        "AI / System Design"
+      ]
+    },
+    "blueOcean": {
+      "skill": "Strategic framework for creating uncontested market space that makes the competition irrelevant, based on the simultaneous pursuit of differentiation and low cost. Core Principle: Don’t compete in bloody red oceans. Create blue oceans of uncontested market space. Most companies fight for share in existing industries; winners create new market space where competition is irrelevant by delivering a leap in value for both buyers and themselves.",
+      "framework": "Four-gate Strategic Sequence: Buyer Utility → Strategic Price → Target Cost → Adoption. Six Paths: Alternative Industries, Strategic Groups, Chain of Buyers, Complementary Products, Functional-Emotional Appeal, Time/Trends. ERRC Grid: Eliminate, Reduce, Raise, Create. Three Tiers of Non-Customers: Soon-to-be, Refusing, Unexplored. Strategy Canvas with divergent value curve as diagnostic.",
+      "examples": "Cirque du Soleil: eliminated animals/stars, created themed art circus — priced above circus, costs below theater. Yellow Tail: eliminated terroir/complexity — #1 imported wine. Nintendo Wii: eliminated graphics race, created motion control — 101M units. Southwest: competed against car travel, not airlines — 45+ years profitable. Netflix: eliminated late fees/stores, created streaming — 230M+ subscribers. Uber: eliminated hailing/cash, created GPS tracking — gig economy pioneer.",
+      "casestudy": "Cirque du Soleil: blended circus arts with theater, targeting adults/corporate clients. Revenue exceeded Ringling Bros within 20 years. Southwest Airlines: competed against Greyhound and the family car. Largest domestic carrier by passengers. Key insight: your real competitor may not be who you think.",
+      "integration": "Strategy Canvas × ERRC Grid × Six Paths × Non-Customers × Strategic Sequence × Value Innovation × Buyer Utility Map",
+      "when": "Use when you want to CREATE new market space instead of competing. Best for: innovation strategy, breaking out of commodity traps, launching new categories."
+    },
+    "mckinseyInfluence": {
+      "when": "You need to change stakeholder behavior, not just alignment.",
+      "why": "McKinsey's Influence model (Understanding → Dedication → Reinforcement → Confidence) targets the four psychological barriers to behavior change — what people think, what they feel, what they experience, and what they believe they can do.",
+      "tags": [
+        "mckinsey",
+        "influence",
+        "change",
+        "behavior",
+        "stakeholder"
+      ],
+      "sections": [
+        "McKinsey",
+        "Leadership"
+      ]
+    },
+    "swot": {
+      "skill": [
+        {
+          "title": "Internal Inventory",
+          "body": "List your top 3-5 Strengths with evidence (data, metrics, testimonials). Then list top 3-5 Weaknesses — be honest about what competitors do better. Each item needs a source."
+        },
+        {
+          "title": "External Scan",
+          "body": "List 3-5 Opportunities from market trends, tech shifts, or competitor gaps. List 3-5 Threats from regulation, macro forces, or new entrants. Use external data sources."
+        },
+        {
+          "title": "TOWS Cross-Analysis",
+          "body": "For each Strength, ask: which Opportunities can it capture (SO)? For each Weakness, ask: which Opportunities does it block (WO)? Map all four quadrants."
+        },
+        {
+          "title": "Prioritize Actions",
+          "body": "Score each item Impact (1-5) x Urgency (1-5). Top 3 items become quarterly action plan. Assign owner + deadline to each."
+        }
+      ],
+      "examples": [
+        {
+          "title": "Netflix 2011",
+          "body": "SWOT revealed DVD-by-mail was the dying weakness while streaming was the growing opportunity — pivot was undeniable."
+        },
+        {
+          "title": "Retailer Channel Shift",
+          "body": "A retailer thought the rival was the real threat. SWOT revealed the actual threat was channel shift to e-commerce, not the rival."
+        }
+      ],
+      "casestudy": [
+        {
+          "title": "Qwikster Debacle",
+          "body": "Netflix SWOT was right but execution was wrong — splitting DVD/streaming into separate brands caused a 77% subscriber loss before reversal. SWOT is only as good as the action plan."
+        }
+      ],
+      "integration": [
+        {
+          "title": "SWOT x PESTEL",
+          "body": "PESTEL fills the Opportunities and Threats quadrants with macro data."
+        },
+        {
+          "title": "SWOT x Porter Five Forces",
+          "body": "Porter fills the Threats quadrant with industry structure analysis."
+        },
+        {
+          "title": "SWOT x TOWS Matrix",
+          "body": "TOWS is the systematic cross-analysis extension of SWOT."
+        }
+      ],
+      "when": "Use when you need a quick internal+external scan. SWOT is a starting point, not a strategy. Best for: initial situation assessment, team alignment on where you stand."
+    },
+    "pestle": {
+      "skill": [
+        {
+          "title": "External Scan",
+          "body": "Score each PESTEL factor 1-5 for impact on your business. Mark trend direction (up/stable/down). For each factor scored 4-5, write a concrete response action."
+        },
+        {
+          "title": "Strategic Response",
+          "body": "For every high-impact factor: define a response action, assign an owner, set a deadline. Low-impact factors get passive monitoring only."
+        }
+      ],
+      "examples": [
+        {
+          "title": "GDPR Compliance",
+          "body": "A SaaS firm scored Legal (GDPR) at 5 — invested 6 months early, gained competitive advantage over slower rivals."
+        },
+        {
+          "title": "Regulation Spotting",
+          "body": "A firm spotted a regulation risk through PESTEL in time to pivot before it became a crisis."
+        }
+      ],
+      "casestudy": [
+        {
+          "title": "Macro Blindspot",
+          "body": "A company focused only on competitors (internal) and missed a regulatory shift that restructured their entire market. PESTEL would have caught it 18 months earlier."
+        }
+      ],
+      "integration": [
+        {
+          "title": "PESTEL x SWOT",
+          "body": "PESTEL provides the external data for the O and T quadrants of SWOT."
+        },
+        {
+          "title": "PESTEL x Scenario Planning",
+          "body": "PESTEL factors become the variables in scenario planning models."
+        }
+      ],
+      "when": "Use when external forces (political, economic, social, tech, legal, environmental) are shaping your challenge. Best for: market entry, regulatory changes, macro trend analysis."
+    },
+    "porter": {
+      "skill": [
+        {
+          "title": "Force Mapping",
+          "body": "Rate each force 1-5. Add key evidence for each score. The strongest force dictates your strategy. Total score: /25. Above 15 = unattractive industry."
+        },
+        {
+          "title": "Strategic Response",
+          "body": "For the strongest force: fight it (differentiation), bypass it (niche), or exploit gaps (cost advantage). Define your response and owner."
+        }
+      ],
+      "examples": [
+        {
+          "title": "Cloud Computing",
+          "body": "High supplier power (AWS/Azure oligopoly) + low buyer power (switching costs) = suppliers set the terms. Strategy: multi-cloud."
+        },
+        {
+          "title": "Restaurant Industry",
+          "body": "Low barriers to entry + high rivalry + low switching costs = terrible economics. Strategy: differentiation through brand/experience."
+        }
+      ],
+      "casestudy": [
+        {
+          "title": "Power Squeeze",
+          "body": "A firm in a power-squeezed segment used Five Forces to identify the exit was the only viable strategy — they repositioned before margins collapsed."
+        }
+      ],
+      "integration": [
+        {
+          "title": "Porter x SWOT",
+          "body": "Five Forces analysis feeds the Threats quadrant of SWOT with industry structure data."
+        },
+        {
+          "title": "Porter x Competitive Landscape",
+          "body": "Competitive Landscape maps specific rivals; Five Forces maps the structural forces those rivals operate within."
+        }
+      ],
+      "when": "Use when you need to understand industry attractiveness and competitive dynamics. Best for: deciding which markets to enter, assessing profit potential, competitive positioning."
+    },
+    "okrFw": {
+      "skill": [
+        {
+          "title": "Set Objective",
+          "body": "Write ONE qualitative, ambitious, time-bound objective. No metrics in the objective — those go in Key Results. Should inspire and align the team."
+        },
+        {
+          "title": "Define Key Results",
+          "body": "Write 2-4 measurable Key Results per Objective. Each needs: baseline, target, and current tracking. Score 0.0-1.0 at quarter end. Target average: 0.6-0.7."
+        },
+        {
+          "title": "Weekly Check-in",
+          "body": "Every week: review KR progress, identify blockers, adjust tactics. Monthly: review confidence levels. Quarterly: score all OKRs and set next quarter."
+        }
+      ],
+      "examples": [
+        {
+          "title": "Google 10x OKRs",
+          "body": "Google uses OKRs at all levels. Individual contributors set OKRs that roll up to team, which roll up to company. Score of 0.7 is considered success."
+        }
+      ],
+      "casestudy": [
+        {
+          "title": "Vanity OKRs",
+          "body": "A startup set OKRs that were all already achievable (score 1.0 consistently) — they were sandbagging. OKR system only works when goals are genuinely ambitious."
+        }
+      ],
+      "integration": [
+        {
+          "title": "OKR x North Star Metric",
+          "body": "North Star Metric becomes the primary Key Result for the company-level Objective."
+        },
+        {
+          "title": "OKR x Balanced Scorecard",
+          "body": "Balanced Scorecard perspectives map to different Objective categories (Financial, Customer, Process, Learning)."
+        }
+      ],
+      "when": "Use when you need to align team around measurable outcomes, not tasks. Best for: quarterly planning, team alignment, performance tracking."
+    },
+    "rice": {
+      "skill": [
+        {
+          "title": "Score Components",
+          "body": "For each feature: Reach (people/quarter), Impact (0.25-3), Confidence (50/80/100%), Effort (person-months). RICE = (R x I x C) / E. Sort descending."
+        },
+        {
+          "title": "Commit to Top Items",
+          "body": "Top 20% of features deliver 80% of value. For each top-tier feature: define MVP scope, assign owner, set deadline. Kill or defer everything below median."
+        }
+      ],
+      "examples": [
+        {
+          "title": "Intercom Roadmap Cut",
+          "body": "Intercom (RICE creators) cut 60+ features to 12. Feature A (score 600) beat B (score 288) despite B having higher reach — because B needed 5x the effort."
+        }
+      ],
+      "casestudy": [
+        {
+          "title": "Pet Project Override",
+          "body": "A CEO overrode RICE scores to ship a pet project. It scored 88 vs the top feature at 600. The pet project generated zero revenue; the RICE top pick drove 40% of growth."
+        }
+      ],
+      "integration": [
+        {
+          "title": "RICE x Kano Model",
+          "body": "Kano identifies feature types (basic/performance/delighter); RICE prioritizes within each type."
+        },
+        {
+          "title": "RICE x Lean Canvas",
+          "body": "Lean Canvas Key Metrics become the Impact targets in RICE scoring."
+        }
+      ],
+      "when": "Use when you need to objectively prioritize competing initiatives. Best for: roadmap decisions, resource allocation, sprint planning. More rigorous than gut-feel."
+    },
+    "empathy": {
+      "skill": [
+        {
+          "title": "Map the Person",
+          "body": "Identify who you are mapping (name/role). Fill Say (quotes), Think (beliefs), Feel (emotions), Do (observed actions). Look for Say-Do gaps — that is where insights live."
+        },
+        {
+          "title": "Pains & Gains",
+          "body": "List frustrations/risks (Pains) and desired outcomes (Gains). Each Pain maps to your Pain Relievers. Each Gain maps to your Gain Creators. Update after every 3 interviews."
+        }
+      ],
+      "examples": [
+        {
+          "title": "Airbnb Photography",
+          "body": "Airbnb hosts feared my place will look bad. The empathy map led to free professional photography that doubled bookings."
+        }
+      ],
+      "casestudy": [
+        {
+          "title": "Say-Do Gap",
+          "body": "A product team surveyed users who said they wanted Feature X. The empathy map revealed they never actually used similar features. Building X was a waste — observe behavior, not stated preferences."
+        }
+      ],
+      "integration": [
+        {
+          "title": "Empathy Map x Persona",
+          "body": "Empathy Map captures what a persona SAYS/THINKS/FEELS/DOES; Persona defines who they ARE."
+        },
+        {
+          "title": "Empathy Map x Value Proposition Canvas",
+          "body": "Pains map to Pain Relievers; Gains map to Gain Creators in the VPC."
+        }
+      ],
+      "when": "Use when you need to deeply understand what customers think, feel, say, and do. Best for: early discovery, user research, building personas."
+    },
+    "7s": {
+      "skill": [
+        {
+          "title": "Element Inventory",
+          "body": "For each of the 7 S elements: describe current state, desired state, gap (1-5), and action to close. Shared Values is the center — all others must align to it."
+        },
+        {
+          "title": "Alignment Scoring",
+          "body": "Score each element 1-5 for alignment with Shared Values. Sum /30. Below 10 = aligned. Above 18 = significant misalignment. Fix the lowest-scoring element first."
+        }
+      ],
+      "examples": [
+        {
+          "title": "Bank Digital Transformation",
+          "body": "Strategy said digital, but incentives still rewarded branch sales. 7S revealed the misalignment — fixing incentives first unlocked the transformation."
+        }
+      ],
+      "casestudy": [
+        {
+          "title": "Strategy-Structure Mismatch",
+          "body": "A company pursued a matrix strategy but kept a functional structure. The 7S model would have flagged this before the 18-month reorg that followed."
+        }
+      ],
+      "integration": [
+        {
+          "title": "7S x SWOT",
+          "body": "7S fills the Weaknesses quadrant of SWOT with specific internal misalignments."
+        },
+        {
+          "title": "7S x Change Management",
+          "body": "7S diagnostic drives the change agenda — misaligned elements become the change targets."
+        }
+      ]
+    },
+    "kotter8": {
+      "skill": [
+        {
+          "title": "Phase Progression",
+          "body": "Do NOT skip steps. Score each 0-100%. Any step below 50% = go back and fix before proceeding. Assign owner and deadline to every step."
+        },
+        {
+          "title": "Quick Win Planning",
+          "body": "Steps 1-5 create the climate. Step 6 (Quick Wins) is the make-or-break moment. Engineer 2-3 visible wins in the first 60 days of the change effort."
+        }
+      ],
+      "examples": [
+        {
+          "title": "Change Momentum",
+          "body": "A transformation that skipped Quick Wins lost momentum by month 4. Restarting with a 30-day visible win campaign reignited the effort."
+        }
+      ],
+      "casestudy": [
+        {
+          "title": "Skip-the-Steps Failure",
+          "body": "A CEO announced a vision (Step 3) without building urgency (Step 1) or coalition (Step 2). The change was ignored within weeks."
+        }
+      ],
+      "integration": [
+        {
+          "title": "Kotter x ADKAR",
+          "body": "Kotter operates at the organizational level; ADKAR operates at the individual level. Use both for complete change coverage."
+        },
+        {
+          "title": "Kotter x 7S",
+          "body": "Kotter steps address the alignment gaps that 7S reveals — especially Structure, Systems, and Style."
+        }
+      ]
+    },
+    "lencioni5": {
+      "skill": [
+        {
+          "title": "Base-Up Diagnosis",
+          "body": "Score each dysfunction 1-5. Fix the lowest-scoring dysfunction at the base FIRST. You CANNOT fix upper layers without fixing the ones below. Trust is always the starting point."
+        },
+        {
+          "title": "Team Assessment",
+          "body": "Use anonymous surveys to get honest scores. Common trap: teams score trust high but accountability low — often the trust is表面的, not genuine vulnerability."
+        }
+      ],
+      "examples": [
+        {
+          "title": "Trust Unlock",
+          "body": "A leadership team scored high on trust but low on accountability. Root cause: trust was表面的. Building real trust (vulnerability exercises) unlocked healthy accountability."
+        }
+      ],
+      "casestudy": [
+        {
+          "title": "Artificial Harmony",
+          "body": "A team avoided all conflict, scored high on harmony. The result: decisions were never truly committed to, deadlines slipped, and accountability was impossible. Healthy conflict is a feature, not a bug."
+        }
+      ],
+      "integration": [
+        {
+          "title": "Lencioni x OKR",
+          "body": "Lencioni diagnoses why teams fail to hit OKRs — usually a dysfunction at the trust or commitment level."
+        },
+        {
+          "title": "Lencioni x 7S",
+          "body": "7S reveals organizational misalignment; Lencioni reveals team behavioral dysfunction. Both are needed."
+        }
+      ]
+    },
+    "valuePropCanvas": {
+      "skill": [
+        {
+          "title": "Customer Profile",
+          "body": "Map Customer Jobs (what they try to do), Pains (what frustrates them), Gains (what they want). Rank each by importance/severity. Use interview data, not assumptions."
+        },
+        {
+          "title": "Value Map Fit",
+          "body": "Map Products & Services, Pain Relievers, Gain Creators. Score fit 1-5 for each pair. Below 3 = redesign needed. The 1:1 mapping between relievers and pains creates product-market fit."
+        }
+      ],
+      "examples": [
+        {
+          "title": "Feature-Pain Mismatch",
+          "body": "A SaaS team discovered their top feature addressed a gain rated 2/5 importance. Pivoting to a pain rated 5/5 tripled conversion."
+        }
+      ],
+      "casestudy": [
+        {
+          "title": "Gain Creator Without Pain",
+          "body": "A team built a sophisticated analytics dashboard (gain creator) but customers had no analytics pain. The dashboard was unused. Pain-first design wins."
+        }
+      ],
+      "integration": [
+        {
+          "title": "VPC x Lean Canvas",
+          "body": "VPC provides the detailed customer-value fit; Lean Canvas provides the full business model context."
+        },
+        {
+          "title": "VPC x Empathy Map",
+          "body": "Empathy Map outputs (pains, gains, jobs) map directly into the Customer Profile side of the VPC."
+        }
+      ],
+      "when": "Use when you need to match your product to customer needs precisely. Best for: product-market fit validation, messaging, feature alignment."
+    },
+    "growthLoops": {
+      "skill": [
+        {
+          "title": "Loop Mapping",
+          "body": "Map your loop: User Action → Output → Distribution → Growth → Loop Back. Identify the trigger, the output, the distribution channel, and the loop-back mechanism."
+        },
+        {
+          "title": "Bottleneck Analysis",
+          "body": "Measure conversion at each stage. The stage with the lowest conversion rate is your bottleneck. Invest there first. Target: loop-back rate > 20% for healthy compounding."
+        }
+      ],
+      "examples": [
+        {
+          "title": "Dropbox Referral Loop",
+          "body": "User invites friend → friend signs up → both get storage → new user invites more. K-factor > 1 = viral growth. The storage incentive was the loop-back mechanism."
+        }
+      ],
+      "casestudy": [
+        {
+          "title": "Paid Loop Death Spiral",
+          "body": "A company scaled paid acquisition (paid loop) without fixing retention. LTV:CAC went negative. The loop was leaky — growth was actually value-destroying."
+        }
+      ],
+      "integration": [
+        {
+          "title": "Growth Loops x AARRR",
+          "body": "AARRR measures funnel stages; Growth Loops shows how output feeds back into input for compounding."
+        },
+        {
+          "title": "Growth Loops x North Star",
+          "body": "North Star Metric should be the output metric of your primary growth loop."
+        }
+      ]
+    },
+    "kano": {
+      "skill": [
+        {
+          "title": "Feature Classification",
+          "body": "Use the Kano questionnaire (functional + dysfunctional pairs) to classify features. Must-Be = table stakes. Performance = compete on. Delighter = differentiate with."
+        },
+        {
+          "title": "Investment Prioritization",
+          "body": "1) All Must-Be features must work. 2) Performance features: invest where you lead. 3) Delighters: pick 1-2 that align with differentiation. A delighter today becomes must-be tomorrow."
+        }
+      ],
+      "examples": [
+        {
+          "title": "Hidden Must-Be",
+          "body": "A team classified a feature as a Delighter, but customer surveys revealed it was actually a Must-Be — users expected it and were frustrated it was missing. Kano saved them from the wrong investment."
+        }
+      ],
+      "casestudy": [
+        {
+          "title": "Delighter Over-Investment",
+          "body": "A team spent 60% of engineering on delighters while must-be features were buggy. Customer satisfaction dropped. Fix the table stakes first."
+        }
+      ],
+      "integration": [
+        {
+          "title": "Kano x RICE",
+          "body": "Kano classifies feature types; RICE prioritizes within each type by reach x impact x confidence / effort."
+        },
+        {
+          "title": "Kano x Value Proposition Canvas",
+          "body": "Must-Be features map to Pain Relievers; Delighters map to Gain Creators in the VPC."
+        }
+      ],
+      "when": "Use when you need to understand which features delight vs. disappoint vs. are expected. Best for: product design, feature prioritization, understanding customer satisfaction dynamics."
+    },
+    "dsDecision": {
+      "skill": [
+        "Given: nums=[2,7,11,15], target=9 | Find: indices of pair summing to target | Constraints: n<=10^4, O(n) required",
+        "Structure: ARRAY (pair with target) → Decision Matrix → Two Pointer algorithm, L/R pointers",
+        "Intermediate DS: Two integer variables L=0, R=n-1; no heap, no map needed for sorted input",
+        "Build: sort if unsorted → initialize L=0, R=n-1 → while L<R: if sum<target L++ else R--",
+        "Verify: check edge cases (duplicates, negative numbers, single pair)"
+      ],
+      "examples": [
+        "Two Sum (pair sum): HashMap for O(n) unsorted, Two Pointer for O(n) sorted",
+        "Sliding Window Max: deque maintains indices of decreasing elements — each element enters/exits deque once → O(n)"
+      ],
+      "casestudy": [
+        {
+          "title": "Coin Change Greedy Trap",
+          "body": "Greedy fails for coins=[1,3,4] amount=6: greedy gives 4+1+1=3 coins, but DP gives 3+3=2 coins. Always test greedy before assuming it works — use DP when unsure."
+        }
+      ],
+      "integration": [
+        "dsPatternFinder × Identify pattern first, then use Decision Matrix for algorithm selection",
+        "dsAlgoRouter × Route from matrix result to detailed implementation template",
+        "dsAlgoDetails × Get code template and edge cases for the chosen algorithm"
+      ]
+    },
+    "madeToStick": {
+      "skill": [
+        "Score your message on SUCCESs (1-5 per principle): Simple, Unexpected, Concrete, Credible, Emotional, Stories",
+        "Find the broken principle: \"Too complicated\" = Simple, \"They tune out\" = Unexpected, \"They forget\" = Concrete",
+        "Fix lowest 1-2 principles first: Commander's Intent for Simple, counterintuitive hook for Unexpected, sensory details for Concrete",
+        "Apply case studies: Southwest (Simple), Nordstrom tires (Unexpected), Boeing 727 (Concrete), Safexpress HP (Credible)",
+        "Diagnose: \"They believe but dont care\" = Emotional, \"They care but dont act\" = Stories (Springboard Story)"
+      ],
+      "examples": [
+        "Southwest: \"THE low-cost airline\" = Commander's Intent, 47 years profit, 70K employees aligned by one sentence",
+        "Nordstrom: accepted tire return they dont sell tires = Unexpected schema violation, legendary without marketing budget",
+        "Boeing 727: \"Seat 131, Miami to NYC, Runway 4-22 La Guardia\" = Concrete target aligned thousands of design decisions",
+        "Safexpress: delivered Harry Potter to every India bookstore on release day = Sinatra Test won Bollywood deal",
+        "\"Dont Mess with Texas\": identity appeal (Texan pride) not environmental logic = 72% litter reduction in 2 years",
+        "World Bank: Zambia health worker story launched knowledge management transformation where data failed"
+      ],
+      "casestudy": [
+        {
+          "title": "Rokia Study (Carnegie Mellon)",
+          "body": "Statistics alone (millions suffering): $1.14 avg donation. One named girl (Rokia, 7, Mali): $2.38. Both combined: $1.43. Analytical priming before appeal: -46% giving. The analytical frame of mind is the enemy of empathy. Lead with ONE person, not statistics."
+        },
+        {
+          "title": "Subway \"Sandwich Artists\" (Bad Analogy)",
+          "body": "Disney \"cast members\" changes behavior across thousands of novel situations. Subway \"sandwich artists\" doesnt change how anyone makes a sandwich. A generative analogy must produce NEW correct inferences on its own. Test: Does the analogy help someone make correct decisions in situations you never described?"
+        }
+      ],
+      "integration": [
+        "Influence (Cialdini 7) x Apply SUCCESs principles to make your influence messages memorable and sticky",
+        "Storybrand x Structure the STORY first (SUCCESs Stories), then apply the full SUCCESs framework",
+        "Blue Ocean Strategy x Use Simple + Concrete to define your new value curve in one sentence"
+      ],
+      "when": "Use when you need to make your message memorable using the SUCCESs principles. Best for: presentations, pitches, internal communications, marketing."
+    },
+    "porterGeneric": {
+      "when": "Use when choosing HOW to compete: cost leadership, differentiation, or focus. Best for: making a fundamental strategic choice about your competitive approach."
+    },
+    "jtbd": {
+      "when": "Use when you need to understand what job customers are hiring your product to do. Best for: product strategy, feature definition, finding unmet needs."
+    },
+    "momTest": {
+      "when": "Use when you need to validate business ideas through customer conversations WITHOUT leading them. Best for: early-stage validation, avoiding false positives."
+    },
+    "leanStartup": {
+      "when": "Use when building something new and need to learn fast through Build-Measure-Learn loops. Best for: MVP testing, product-market fit, iterative development."
+    },
+    "fourSteps": {
+      "when": "Use when taking a product from idea to scale and need to know which phase you are in. Best for: startup sequencing, avoiding premature scaling."
+    },
+    "balancedScorecard": {
+      "when": "Use when you need a balanced view across financial, customer, process, and learning metrics. Best for: executive reporting, strategy alignment, holistic performance."
+    },
+    "scamper": {
+      "when": "Use when you need structured creativity to improve existing products or processes. Best for: product improvement, process optimization, creative brainstorming with discipline."
+    },
+    "starburst": {
+      "when": "Use when you need to explore a topic from every angle through questioning. Best for: problem exploration, strategy sessions, challenging assumptions."
+    },
+    "influenceCialdini": {
+      "when": "Use when you need to understand and apply ethical persuasion. Best for: marketing, sales, negotiations, leadership communication."
+    }
+  },
+  "frameworkCompare": {
+    "5": "vs Fishbone: trace ONE root-cause chain, not a category map",
+    "swot": {
+      "tags": [
+        "strategy",
+        "diagnosis",
+        "internal",
+        "external",
+        "quick-start"
+      ],
+      "compare": "vs PESTEL: SWOT is internal+external quick scan; PESTEL is deep external analysis. vs Porter: SWOT is self-assessment; Porter is industry attractiveness. vs Blue Ocean: SWOT finds your position; Blue Ocean creates new space."
+    },
+    "porter": {
+      "tags": [
+        "strategy",
+        "competitive",
+        "industry",
+        "profitability"
+      ],
+      "compare": "vs SWOT: Porter analyzes industry structure; SWOT analyzes your position. vs Blue Ocean: Porter helps you compete in existing markets; Blue Ocean helps you escape them."
+    },
+    "pestle": {
+      "tags": [
+        "strategy",
+        "external",
+        "macro",
+        "regulatory",
+        "trends"
+      ],
+      "compare": "vs SWOT: PESTEL is external-only and deeper; SWOT includes internal. Use PESTEL when external forces dominate your challenge."
+    },
+    "bcg": "vs Porter: allocate a PORTFOLIO by growth/share, not assess industry attractiveness",
+    "canvas": "vs BCG: design the whole value model, not just prioritize business units",
+    "aiValue": "vs Canvas: tie AI bets to P&L levers, not just describe the model",
+    "opModel": "vs Canvas: turn strategy into how work actually runs (process, tech, locations)",
+    "businessPlan": "vs Canvas: a one-page plan to win funders, not the full model",
+    "blueOcean": {
+      "tags": [
+        "strategy",
+        "innovation",
+        "differentiation",
+        "market-creation"
+      ],
+      "compare": "vs Porter: Porter helps you win in existing markets; Blue Ocean creates new ones. vs SWOT: Blue Ocean is forward-looking and creative; SWOT is diagnostic."
+    },
+    "minto": "vs SCQA: lead with the ANSWER · vs Issue Tree: the communication, not the analysis",
+    "scqa": "vs Minto: open with Situation-Complication-Question before the answer",
+    "mece": "vs Logic Tree: the cleanliness RULE that makes any breakdown valid",
+    "mckIssueTree": "vs Logic Tree: same discipline, McKinsey-named · vs Hyp Tree: structure first",
+    "mckHypTree": "vs Issue Tree: emphasizes TESTABLE hypotheses over pure structure",
+    "mckProblemStmt": "vs Minto: nail the problem before building the pyramid",
+    "mckPSP": "vs Minto: the one-page DELIVERABLE of the pyramid (governing thought → support)",
+    "mckStakeholder": "vs Influence maps: name exactly who DECIDES and who can block",
+    "mckinseyInfluence": "vs 7S: behavior-change levers, not structural alignment · vs ADKAR: four SIMULTANEOUS levers vs a sequential individual journey",
+    "mckWorkplan": "vs Roadmap: week-by-week delivery, not what/when at a glance",
+    "mckDistinct": "vs Positioning: force a memorable \"only we\" claim customers recall",
+    "mckMethod": "vs others: the engagement OPERATING SYSTEM, not a single tool",
+    "first": "vs SCAMPER: re-derive from first principles, don't remix what exists",
+    "scamper": {
+      "tags": [
+        "ideation",
+        "creativity",
+        "improvement",
+        "brainstorming"
+      ],
+      "compare": "vs Starbursting: SCAMPER gives you specific actions (Substitute, Combine, etc.); Starbursting gives you question categories (Who, What, Where, etc.). SCAMPER for improving; Starbursting for exploring."
+    },
+    "logic": "vs MECE: a hierarchical ARGUMENT · MECE is the rule that keeps it clean",
+    "hats": "vs Diamond: six FIXED lenses (facts/feelings/creative…) vs free diverge-converge",
+    "diamond": "vs Hats: diverge-then-converge with no fixed roles",
+    "fishbone": "vs 5 Whys: map many cause CATEGORIES, not one root-cause chain",
+    "issue": "vs Logic Tree: a decision-tree framing of the same structured discipline",
+    "starburst": {
+      "tags": [
+        "ideation",
+        "questions",
+        "exploration",
+        "brainstorming"
+      ],
+      "compare": "vs SCAMPER: Starbursting is question-driven (explore from all angles); SCAMPER is action-driven (specific transformation moves). Starbursting for opening up; SCAMPER for changing things."
+    },
+    "jtbd": {
+      "tags": [
+        "customer",
+        "jobs",
+        "strategy",
+        "innovation"
+      ],
+      "compare": "vs Empathy: JTBD focuses on the job, not the person. vs Value Prop Canvas: JTBD defines what job to solve; VPC maps how your product solves it."
+    },
+    "value": "vs Canvas: the customer-value HALF of the business model",
+    "kano": {
+      "tags": [
+        "product",
+        "features",
+        "satisfaction",
+        "prioritization"
+      ],
+      "compare": "vs RICE: Kano tells you WHAT type each feature is (must-be/performance/delighter); RICE tells you the effort-adjusted priority. Use both together."
+    },
+    "rice": {
+      "tags": [
+        "product",
+        "prioritization",
+        "roadmap",
+        "scoring"
+      ],
+      "compare": "vs Kano: RICE scores by impact/effort; Kano classifies by satisfaction type. Use RICE to rank items, Kano to understand what each item does to satisfaction."
+    },
+    "northstar": "vs OKR: ONE leading metric vs objectives + key results",
+    "okr": "vs North Star: set Objectives + Key Results, not a single metric",
+    "pmf": "vs Traction: prove DEMAND exists before hunting the channel",
+    "traction": "vs Pirate: the 19 channels to find ONE repeatable engine",
+    "pirate": "vs Traction: the AARRR funnel lens on growth",
+    "leancanvas": "vs Canvas: startup risk-forward version (problems before polish)",
+    "dvf": "vs Lean Canvas: the desirability×feasibility×viability gate",
+    "roadmap": "vs Workplan: what/when/why at a glance, not week-by-week",
+    "empathy": {
+      "tags": [
+        "customer",
+        "empathy",
+        "research",
+        "personas"
+      ],
+      "compare": "vs JTBD: Empathy Map captures feelings/thoughts; JTBD captures the functional job. vs Value Prop Canvas: Empathy is discovery; Value Prop Canvas is alignment."
+    },
+    "persona": "vs Empathy Map: a concrete archetype vs a feeling map",
+    "customer": "vs JTBD: the end-to-end journey vs the job hired",
+    "micro": "vs Modular: independent SERVICES vs internal modules",
+    "rest": "vs Event/Graph: uniform resource style vs flows/relationships",
+    "event": "vs REST: event-driven flows vs request/response resources",
+    "sysdesign": "vs Micro: the scalability/consistency TRADE-OFF conversation",
+    "togaf": "vs others: a repeatable ENTERPRISE architecture method",
+    "rag": "baseline retrieval-augmented generation before the specialized variants below",
+    "crag": "vs vanilla RAG: self-CHECK retrieval quality before answering",
+    "graphrag": "vs RAG: reason over RELATIONSHIPS, not just text chunks",
+    "hybridrag": "vs RAG: keyword + semantic for higher recall AND precision",
+    "multimodalrag": "vs RAG: answer over images/tables/audio, not just text",
+    "agenticrag": "vs RAG: plan/act/reflect AGENTS over retrieved context",
+    "multiagent": "vs Agentic RAG: several SPECIALIZED agents hand off vs one",
+    "tooluse": "vs Agents: just the structured tool INTERFACE, not autonomy",
+    "reflection": "vs Agents: a self-critique LOOP, not multi-agent handoff",
+    "scopeai": "vs others: pin the AI project's scope & success criteria first",
+    "ai": "vs AI Value: the pattern MAP vs the value map",
+    "pixar": "vs Storybrand: character ARC vs customer-as-hero",
+    "storybrand": "vs Pixar: you are the GUIDE, customer is the hero",
+    "hero": "vs Pitch: the STORY vs the ask",
+    "pitch": "vs Hero: the ASK vs the story",
+    "influenceCialdini": "vs Made to Stick: make ideas STICKY vs make people SAY YES · vs Storybrand: structure the STORY vs structure the ASK",
+    "fourSteps": {
+      "tags": [
+        "startup",
+        "phases",
+        "scaling",
+        "sequence"
+      ],
+      "compare": "vs Lean Startup: Four Steps gives you the roadmap of phases; Lean Startup gives you the engine of each phase. Use Four Steps to know WHERE you are; Lean Startup to know WHAT to do."
+    },
+    "thesis": "vs Minto: the single CLAIM vs the full pyramid",
+    "galbraithStar": "vs Weisbord: the five design LEVERS (strategy/structure/process/reward/people)",
+    "weisbord6box": "vs Nadler-Tushman: six-box diagnostic vs congruence/fit view",
+    "burkeLitwin": "vs Nadler-Tushman: separates TRANSFORMATION vs steady-state drivers",
+    "nadlerTushman": "vs Burke-Litwin: congruence/fit of parts vs the causal drivers",
+    "mintzbergConfig": "vs Lawrence-Lorsch: whole-config shapes vs differentiation/integration",
+    "lawrenceLorsch": "vs Mintzberg: when to couple units tightly vs pick a config",
+    "gooldCampbell9": "vs Goold Parenting: the nine TESTS vs the \"where HQ adds value\" question",
+    "gooldParenting": "vs Goold Control: what the CENTER should add vs how tightly to control",
+    "ambidextrous": "vs Functional: run exploit + explore as SEPARATE units",
+    "socioTechnical": "vs Holacracy: optimize social+technical jointly vs replace managers",
+    "holacracy": "vs Socio-Technical: distributed ROLES vs joint optimization",
+    "teamBasedOrg": "vs Functional: cross-functional TEAMS vs deep specialties",
+    "bcgMatrix": "vs BCG (Strategy): corporate PORTFOLIO of units vs single-business matrix",
+    "mckinseyGtm": "vs GTM Engine: McKinsey's 6-pillar + 7-step structured process vs the gear metaphor",
+    "pricingStrategy": "vs GTM Engine: dedicated pricing DEEP-DIVE vs one gear in the engine",
+    "competitiveLandscape": "vs SWOT: competitive-focused with differentiation levers vs four-quadrant snapshot",
+    "personaDeepDive": "vs Persona: multi-role BUYER archetypes with journey + messaging vs single user profile",
+    "salesEnablement": "vs Messaging Hierarchy: sales-specific BATTLE CARDS + stage guidance vs brand-level message",
+    "feedbackLoops": "vs GTM Metrics: structured REVIEW cadences + feedback channels vs raw KPI tracking",
+    "$100mLeads": "vs Traction: Core Four + Rule of 100 + More-Better-New vs 19 channels · vs GTM Engine: acquisition-focused playbook vs full revenue engine",
+    "tradingComps": "vs DCF: market-relative valuation vs intrinsic · vs LBO: private equity return profile vs public market multiples",
+    "ccc": "vs DSO/DIO/DPO individually: NET cash cycle speed vs isolated metric",
+    "leanStartup": {
+      "tags": [
+        "startup",
+        "mvp",
+        "iteration",
+        "validation"
+      ],
+      "compare": "vs Four Steps: Lean Startup is the loop (build-measure-learn); Four Steps is the sequence (search → scale). vs Mom Test: Lean Startup is the full process; Mom Test is the validation technique."
+    },
+    "valuePropCanvas": {
+      "tags": [
+        "customer",
+        "product-market-fit",
+        "alignment",
+        "messaging"
+      ],
+      "compare": "vs JTBD: VPC is the detailed matching tool; JTBD is the discovery tool. vs Empathy: VPC is prescriptive (what to build); Empathy is diagnostic (what they feel)."
+    },
+    "momTest": {
+      "tags": [
+        "customer",
+        "validation",
+        "interviews",
+        "startup"
+      ],
+      "compare": "vs JTBD: Mom Test validates if the problem is real; JTBD defines what the problem is. vs Lean Startup: Mom Test is the interview method; Lean Startup is the build-measure-learn loop."
+    },
+    "okrFw": {
+      "tags": [
+        "performance",
+        "goals",
+        "alignment",
+        "tracking"
+      ],
+      "compare": "vs Balanced Scorecard: OKRs are outcome-focused and quarterly; BSC is holistic and strategic. OKRs for team execution; BSC for executive strategy."
+    },
+    "balancedScorecard": {
+      "tags": [
+        "performance",
+        "metrics",
+        "strategy",
+        "holistic"
+      ],
+      "compare": "vs OKR: BSC provides the 4-perspective lens (Financial/Customer/Process/L&G); OKRs provide the target-setting mechanism. BSC tells you what to measure; OKRs tell you what to achieve."
+    }
+  }
+}
